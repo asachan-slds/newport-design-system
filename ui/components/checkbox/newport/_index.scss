@@ -153,7 +153,7 @@
     text-align: center;
     padding: 0 10px;
     text-transform: capitalize;
-    letter-spacing: 1px;
+    letter-spacing: $letter-spacing-normal;
     font-weight: 400;
     color: $color-background-brand-primary;
     #{$left}: 0;
@@ -233,9 +233,31 @@ fieldset.nds-form-element+.nds-has-error.nds-grid div:first-child small {
   flex-direction: column;
 }
 
+.nds-form-element__control .nds-checkbox,
 .nds-form-element__control.nds-vertical_checkbox .nds-checkbox,
 .nds-form-element__control.nds-horizontal_checkbox .nds-checkbox {
   margin: 0 1rem 0.5rem 0;
+  margin: 0 1rem .25rem 0;
+  background-color: $color-background-select;
+  border-radius: 12px;
+  padding: 10px 15px;
+
+  /* following props added dynamically so ignoring them by adding same with default values 
+    and marking them with !important to be effective. 
+  .nds-form-element__control[vlocity_cmt-radioGroup_radioGroup_nds] span.nds-radio[vlocity_cmt-radioGroup_radioGroup_nds] {
+    padding-left: 1.5rem;
+    text-indent: -1.5rem;
+  */
+  padding-left: 15px !important;
+  text-indent: 0 !important;
+
+  &:hover,
+  &:focus {
+    background-color: $color-background-hover;
+  }
+  &:checked {
+    background-color: $color-background-selected;
+  }
 }
 
 .nds-form-element__control.nds-grid {

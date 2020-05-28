@@ -1,8 +1,7 @@
+.nds-read-only [data-omni-input=true] {
+  pointer-events: auto;
+}
+   
 .nds-read-only {
   cursor: not-allowed;
-}
-
-
-.nds-read-only [data-omni-input="true"] {
-  pointer-events: none;
 }

@@ -12,9 +12,9 @@
  */
 
 .nds-textarea {
-  padding-top: 0;
+  padding-top: $spacing-small;
   margin-top: 0.25rem;
-  letter-spacing: 1px;
-  font-size: $font-size-medium-a;
-  font-weight: 400;
+  letter-spacing: $letter-spacing-normal;
+  font-size: $wsv-text-font-size;
+  font-weight: $font-weight-regular;
 }

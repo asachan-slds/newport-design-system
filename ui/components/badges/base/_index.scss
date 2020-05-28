@@ -16,7 +16,7 @@
   font-size: $font-size-x-small;
   line-height: $line-height-heading;
   text-transform: uppercase;
-  letter-spacing: 0.0625em;
+  letter-spacing: $letter-spacing-normal;
   color: $color-text-default;
   vertical-align: bottom;
   white-space: nowrap;
@@ -54,7 +54,7 @@
   background-color: $badge-color-background-lightest;
   font-size: $font-size-text-x-small;
   text-transform: none;
-  letter-spacing: normal;
+  letter-spacing: $letter-spacing-normal;
 }
 
 /**

@@ -30,3 +30,5 @@ $shadow-reminder: $offset-none ($offset-x-small) + px $offset-none $offset-none 
 $shadow-soft-primary-active: none !default;
 $shadow-soft-primary-hover: none !default;
 $shadow-soft-primary: none !default;
+$shadow-selected-focus: $offset-none $offset-none $offset-none ($offset-medium) + px $diarylide-yellow !default;
+$shadow-selected-error: $offset-none $offset-none $offset-none ($offset-medium) + px $flush-mahogany !default;

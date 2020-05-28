@@ -3,12 +3,12 @@
 
 @mixin focus-button {
   outline: 0;
-  box-shadow: $shadow-button-focus;
+  box-shadow: none;
 }
 
 @mixin focus-inverse {
   outline: none;
-  box-shadow: $shadow-button-focus-inverse;
+  box-shadow: none;
 }
 
 

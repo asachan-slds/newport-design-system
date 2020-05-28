@@ -9,13 +9,14 @@
 ///
 /// @require $static-font-path - See _config.scss where this setting is defined
 @mixin font-face($font-face-setting: Regular, $font-style-setting: null, $font-weight-setting: null) {
-  $font-path: '#{$static-font-path}/Lato-#{$font-face-setting}';
+  $font-path: '#{$static-font-path}/NHassGrotesk-#{$font-face-setting}';
 
   @font-face {
-    font-family: 'Lato';
+    // font-family: 'Lato';
+    // src: url('#{$font-path}.woff2') format('woff2');
 
-    src: url('#{$font-path}.woff2') format('woff2'),
-      url('#{$font-path}.woff') format('woff');
+    font-family: 'NHassGrotesk';
+    src: url('#{$font-path}.eot') format('eot');
 
     font-style: $font-style-setting;
     font-weight: $font-weight-setting;
@@ -39,5 +40,5 @@
 @mixin text-heading--label {
   @include text-heading--label-normal;
   text-transform: uppercase;
-  letter-spacing: 0.0625rem;
+  letter-spacing: $letter-spacing-normal;
 }

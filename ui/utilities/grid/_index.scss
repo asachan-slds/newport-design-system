@@ -9,6 +9,12 @@
  */
 .nds-grid {
   display: flex;
+
+  c-radio-group,
+  c-checkbox-group {
+    /* autoprefixer: off */
+    width: -webkit-fill-available;
+  }
 }
 
 /**

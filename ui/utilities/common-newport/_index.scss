@@ -25,18 +25,60 @@ section.nds-page-header {
 }
 
 p[vlc-bind-html],
-.nds-text-block {
-  color: $color-light-blue-hue;
+.slds-scope .nds-text-block,
+.via-nds .nds-text-block {
+  color: $color-black-primary;
   word-break: normal;
   font-family: $font-family; // workaround for LWC overriding styles
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: $letter-spacing-normal;
 
-  p,
   span {
-    font-size: 0.9rem;
-    color: $color-midnight-blue;
+    font-size: $wsv-text-font-size;
+    color: $color-black-primary;
     font-weight: 300;
     padding: 0 0 3px;
+
+    h1 {
+      font-size: $font-size-heading-large;
+      font-weight: $font-weight-bold;
+    }
+    h5 {
+      font-size: $font-size-heading-small;
+      font-weight: $font-weight-bold;
+    }
+    h6 {
+      font-size: $font-size-heading-x-small;
+      font-weight: $font-weight-bold;
+    }
+    h1, h6 {
+      margin-bottom: $spacing-small;
+    }
+    h5 {
+      margin-top: $spacing-medium;
+      margin-bottom: $spacing-xx-small;
+    }
+    .intro-text,
+    .selection-page-text {
+      font-size: 17px;
+      font-weight: 300;
+      height: 20px;
+    }
+    .line-break-space {
+      padding: 0.5rem;
+    }
   }
+}
+
+.wsv-nds-section-break {
+  border-bottom: 4px solid $color-line-break;
+}
+
+.nds-button_stretch {
+  padding: .75rem .25rem;
+  width: 100%;
 }
 
 .vlc-typeahead-newopt-displaynone {
@@ -174,7 +216,7 @@ ul.nds-dropdown-list {
     background-color: $color-background-input;
     font-weight: 400;
     padding: 0.4rem 1rem;
-    letter-spacing: 1px;
+    letter-spacing: $letter-spacing-normal;
     color: $color-dropdown-text;
     cursor: pointer;
 
@@ -285,16 +327,16 @@ ul.nds-dropdown-list {
 }
 
 .nds-element_text-font {
-  font-size: 0.875rem;
-  letter-spacing: 1px;
-  font-weight: 400;
+  font-size: $wsv-text-font-size;
+  letter-spacing: $letter-spacing-normal;
+  font-weight: $font-weight-regular;
   color: $color-input-font-kashmiri-blue;
 }
 
 .nds-button_text-font {
-  letter-spacing: 1px;
-  font-size: 0.75rem;
-  font-weight: 300;
+  letter-spacing: $letter-spacing-normal;
+  font-size: $wsv-text-font-size;
+  font-weight: $font-weight-light;
 }
 
 div[msg='Success'] {
@@ -394,8 +436,8 @@ span[vlc-slds-pop-over] {
 }
 
 .nds-step_label {
-  font-size: 1.3rem;
-  font-weight: 600;
+  font-size: $font-size-text-x-large;
+  font-weight: $font-weight-md-bold;
   color: $color-background-brand-primary;
 }
 
@@ -418,9 +460,9 @@ span[vlc-slds-pop-over] {
 
 .typeahead.dropdown-menu li {
   background-color: $color-border-tab-active;
-  font-weight: 400;
+  font-weight: $font-weight-regular;
   padding: 0.4rem 1rem;
-  letter-spacing: 1px;
+  letter-spacing: $letter-spacing-normal;
   color: $color-dropdown-text;
   cursor: pointer;
 
@@ -467,10 +509,10 @@ span[vlc-slds-pop-over] {
 }
 
 .nds-step__link-button {
-  font-size: 0.875rem;
+  font-size: $wsv-text-font-size;
   text-transform: capitalize;
   color: $color-background-brand-primary;
-  font-weight: 400;
+  font-weight: $font-weight-regular;
 }
 
 .nds-progress__list-mobile {
@@ -609,17 +651,18 @@ button.nds-step__next-link[disabled] {
 }
 
 .nds-form-element.nds-multiSelect_filter-control .nds-form-element__label {
-  font-size: 0.875rem;
-  letter-spacing: 1px;
-  font-weight: 400;
-  color: $color-input-font-kashmiri-blue;
+  font-size: $wsv-text-font-size;
+  letter-spacing: $letter-spacing-normal;
+  font-weight: $font-weight-regular;
+  font-family: $font-family;
+  color: $color-black-primary;
 }
 
 .nds-multiSelect_filter-control ul[horizontalmode='true'] li .nds-checkbox span.nds-form-element__label {
-  letter-spacing: 1px;
-  color: $color-input-font-kashmiri-blue;
-  font-size: 0.75rem;
-  font-weight: 300;
+  letter-spacing: $letter-spacing-normal;
+  color: $color-black-primary;
+  font-size: $wsv-text-font-size;
+  font-weight: $font-weight-light;
 }
 
 #debug-panel {
@@ -707,8 +750,8 @@ button.nds-step__next-link[disabled] {
     margin-#{$left}: 0.5rem;
 
     .nds-form-element__label {
-      color: $color-light-blue-hue;
-      font-size: 0.8125rem;
+      color: $color-black-primary;
+      font-size: $wsv-text-font-size;
 
       span.nds-ref-number {
         font-weight: 700;
@@ -719,7 +762,7 @@ button.nds-step__next-link[disabled] {
 
 .nds-disclosure .nds-form-element__label,
 .nds-range .nds-form-element__label span {
-  font-size: 0.875rem;
+  font-size: $wsv-text-font-size;
 }
 
 form {
@@ -745,4 +788,43 @@ form {
 .nds-line_break {
   max-height: 0;
   line-height: 0;
+}
+
+.nds-faux-animate {
+    /* autoprefixer: off */
+    width: -webkit-fill-available;
+    border-radius: 12px;
+    font-size: $wsv-text-font-size;
+    line-height: $line-height-item-label;
+    padding: 24px 28px 24px 24px;
+
+    &[msg=Warning] {
+      border: 1px solid #fae9e6;
+      background: #fae9e6;
+      color: #c52007;
+
+      span[title=Warning] {
+        display: none;
+      }
+    }
+
+    &[msg=Success] {
+      border: 1px solid #edf8ef;
+      background: #edf8ef;
+      color: #477b4c;
+
+      span[title=Success] {
+        display: none;
+      }
+    }
+
+    &[msg=Comment] {
+      border: 1px solid #5264ac;
+      background: #5264ac;
+      color: #fff;
+
+      span[title=Comment] {
+        display: none;
+      }
+    }
 }
