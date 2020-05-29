@@ -63,7 +63,7 @@ input[placeholder]::placeholder {
     font-size: $form-label-font-size;
     font-weight: $form-label-font-weight;
     letter-spacing: 1px;
-    color: $color-input-font-kashmiri-blue;
+    color: $color-black-primary;
     padding: 0 .5rem 0 0;
   }
 
@@ -90,10 +90,10 @@ input[placeholder]::placeholder {
 
     ~.nds-form-element__label,
     +.nds-form-element__label {
-      transform: translate3d(0, -1.2rem, 0);
+      transform: translate3d(0, 0, 0);
       transition-duration: 300ms;
       z-index: 1;
-      top: .4rem;
+      top: -1.75rem;
       #{$left}: 0;
 
       .nds-button_icon {
