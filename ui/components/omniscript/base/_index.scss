@@ -58,14 +58,14 @@
   position: absolute;
 }
 
-// @media (min-width: 48em) {
-//   .omniscript-btn-previous {
-//     position: absolute;
-//     left: 1.5rem;
-//     bottom: 0rem;
-//   }
+@media (min-width: 48em) {
+  .omniscript-btn-previous {
+    position: absolute;
+    left: 1.5rem;
+    bottom: 0rem;
+  }
 
-//   .nds-button-group-row {
-//     position: relative;
-//  }
-// }
+  .nds-button-group-row {
+    position: relative;
+ }
+}
