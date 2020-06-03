@@ -34,6 +34,13 @@
     box-shadow: $shadow-button-focus;
     border-style: solid;
   }
+  &__wsv {
+    border-radius: $border-radius-x-large;
+    border-color: $color-border-upload-container;
+  }
+  lightning-primitive-icon {
+    display: none;
+  }
 }
 
 /**
