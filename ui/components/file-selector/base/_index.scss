@@ -41,6 +41,22 @@
   lightning-primitive-icon {
     display: none;
   }
+  lightning-file-upload lightning-input lightning-primitive-file-droppable-zone span.slds-button {
+    border-radius: 12px;
+    border: solid 1px #5264ac;
+    background-color: #ffffff;
+    color: #5264ac;
+    line-height: 1.65;
+    height: 36px;
+    font-weight: 900;
+    cursor: pointer;
+    margin: 1rem;
+
+    &:focus,
+    &:active {
+      box-shadow: $shadow-selected-focus;
+    }
+  }
 }
 
 /**
