@@ -69,3 +69,47 @@
     position: relative;
  }
 }
+
+//for wsv custom stepper
+
+.stepOvalComplete {
+  min-width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #477b4c;
+}
+
+.stepOvalActive {
+  min-width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: solid 4px #fdb813;
+}
+
+.stepOvalInactive {
+  min-width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: solid 4px #000000;
+}
+
+.stepRectangleActive {
+  width: 4px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #fdb813;
+}
+
+.stepRectangleComplete {
+  width: 4px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #477b4c;
+}
+
+.stepRectangleInactive {
+  width: 4px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #dddbda;
+}
