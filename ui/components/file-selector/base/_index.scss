@@ -41,21 +41,20 @@
   lightning-primitive-icon {
     display: none;
   }
-  lightning-file-upload lightning-input lightning-primitive-file-droppable-zone span.slds-button {
-    border-radius: 12px;
-    border: solid 1px #5264ac;
-    background-color: #ffffff;
-    color: #5264ac;
-    line-height: 1.65;
-    height: 36px;
-    font-weight: 900;
-    cursor: pointer;
-    margin: 1rem;
 
-    &:focus,
-    &:active {
-      box-shadow: $shadow-selected-focus;
-    }
+  lightning-file-upload lightning-input lightning-primitive-file-droppable-zone span.slds-button {
+    border-radius: $border-radius-x-large;
+    border: solid 1px $color-border-upload-btn;
+    color: $color-text-upload-btn;
+    line-height: $line-height-item-label;
+    height: 36px;
+    font-weight: $font-weight-x-bold;
+    cursor: pointer;
+    margin: 1rem;    
+  }
+
+  lightning-file-upload lightning-input lightning-primitive-file-droppable-zone .slds-file-selector__input:focus~.slds-file-selector__body>.slds-button {
+    box-shadow: $shadow-selected-focus;
   }
 }
 
