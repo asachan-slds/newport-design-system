@@ -34,6 +34,28 @@
     box-shadow: $shadow-button-focus;
     border-style: solid;
   }
+  &__wsv {
+    border-radius: $border-radius-x-large;
+    border-color: $color-border-upload-container;
+  }
+  lightning-primitive-icon {
+    display: none;
+  }
+
+  lightning-file-upload lightning-input lightning-primitive-file-droppable-zone span.slds-button {
+    border-radius: $border-radius-x-large;
+    border: solid 1px $color-border-upload-btn;
+    color: $color-text-upload-btn;
+    line-height: $line-height-item-label;
+    height: 36px;
+    font-weight: $font-weight-x-bold;
+    cursor: pointer;
+    margin: 1rem;    
+  }
+
+  lightning-file-upload lightning-input lightning-primitive-file-droppable-zone .slds-file-selector__input:focus~.slds-file-selector__body>.slds-button {
+    box-shadow: $shadow-selected-focus;
+  }
 }
 
 /**
