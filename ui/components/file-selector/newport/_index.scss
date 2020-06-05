@@ -151,3 +151,14 @@
     top: -0.8125rem;
   }
 }
+
+.wsv-upload-file-text {
+  color:$color-text-upload-filename;
+  font-weight: $font-weight-bold;
+}
+.wsv-upload-file-size-text {
+  color: $color-text-upload-filesize;
+}
+.wsv-icon-style .nds-icon-text-default:hover {
+  fill: $black-primary;
+}
