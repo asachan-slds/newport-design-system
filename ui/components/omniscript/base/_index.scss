@@ -72,44 +72,44 @@
 
 //for wsv custom stepper
 
-.stepOvalComplete {
+.wsv_stepOvalComplete {
   min-width: 48px;
   height: 48px;
   border-radius: 50%;
-  background-color: #477b4c;
+  background-color: $color-background-step-block-hippie-green;
 }
 
-.stepOvalActive {
+.wsv_stepOvalActive {
   min-width: 48px;
   height: 48px;
   border-radius: 50%;
-  border: solid 4px #fdb813;
+  border: solid 4px $color-background-step-block-diarylide-yellow;
 }
 
-.stepOvalInactive {
+.wsv_stepOvalInactive {
   min-width: 48px;
   height: 48px;
   border-radius: 50%;
   border: solid 4px #000000;
 }
 
-.stepRectangleActive {
+.wsv_stepRectangleActive {
   width: 4px;
   height: 100%;
   margin: 0 auto;
-  background-color: #fdb813;
+  background-color: $color-border-step-block-diarylide-yellow;
 }
 
-.stepRectangleComplete {
+.wsv_stepRectangleComplete {
   width: 4px;
   height: 100%;
   margin: 0 auto;
-  background-color: #477b4c;
+  background-color: $color-background-step-block-hippie-green;
 }
 
-.stepRectangleInactive {
+.wsv_stepRectangleInactive {
   width: 4px;
   height: 100%;
   margin: 0 auto;
-  background-color: #dddbda;
+  background-color: $color-background-step-block-gray;
 }
