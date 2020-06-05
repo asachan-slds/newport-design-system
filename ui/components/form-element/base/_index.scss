@@ -109,6 +109,51 @@
       width: calc(100% - #{$square-icon-small-boundary}); // Leave space for edit icon
     }
   }
+
+  //for wsv custom stepper
+
+  .wsv_stepOvalComplete {
+    min-width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: $color-background-step-block-complete;
+  }
+
+  .wsv_stepOvalActive {
+    min-width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: solid 4px $color-background-brand-primary-focus;
+  }
+
+  .wsv_stepOvalInactive {
+    min-width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: solid 4px $color-border-step-block-inactive;
+  }
+
+  .wsv_stepRectangleActive {
+    width: 4px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: $color-border-step-block-active;
+  }
+
+  .wsv_stepRectangleComplete {
+    width: 4px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: $color-background-step-block-complete;
+  }
+
+  .wsv_stepRectangleInactive {
+    width: 4px;
+    height: 100%;
+    margin: 0 auto;
+    background-color:$color-background-step-block-inactive;
+  }
+
 }
 
 /**
