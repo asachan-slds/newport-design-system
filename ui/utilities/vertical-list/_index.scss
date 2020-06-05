@@ -213,6 +213,11 @@
         margin-top: $spacing-x-small;
       }
     }
+    > .wsv-upload-item {
+      @include border(around, $border-radius-x-large);
+      border-color: #f2f2f2;
+      background: #f2f2f2;
+    }
   }
 }
 
