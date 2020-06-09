@@ -102,9 +102,14 @@ $color-stroke-header-button: $palette-gray-7 !default;
 $color-border-botticelli: $newport-border-botticelli !default;
 $color-comment-msz: $newport-color-comment-msz !default;
 $color-dropdown-border: $newport-dropdown-border !default;
-
 //wsv color border for stepOvalActive
 $color-border-step-block-active: $diarylide-yellow !default;
 $color-border-step-block-inactive: $black-primary !default;
+//wsv color border for upload file
 $color-border-upload-container: $newport-color-Harmonies !default;
 $color-border-upload-btn: $newport-color-Harmonies !default;
+// wsv border color for uploaded file pill
+$color-border-upload-file-pill: $palette-cool-gray-13 !default;
+//wsv color border for stepItems
+$color-border-step-circle: $black-primary !default;
+$color-border-brand: $diarylide-yellow !default;
