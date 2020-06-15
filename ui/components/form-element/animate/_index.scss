@@ -62,7 +62,7 @@ input[placeholder]::placeholder {
     font-family: $font-family;
     font-size: $form-label-font-size;
     font-weight: $form-label-font-weight;
-    letter-spacing: 1px;
+    // letter-spacing: 1px;
     color: $color-black-primary;
     padding: 0 .5rem 0 0;
   }
