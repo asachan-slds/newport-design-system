@@ -142,4 +142,60 @@ storiesOf(`${base}`, module)
     </span>
   </div>
 </fieldset>`);
+  }).add('Error OmniScript 1', () => {
+    return withExample(`
+      <div class="nds-form-element nds-form-container nds-has-error">
+        <fieldset>
+          <legend class="nds-form-element__legend nds-form-element__label nds-form-element__control-help nds-radio-relative-tooltip nds-container_fluid">
+            <div class="nds-clearfix nds-container_fluid">
+              <div class="nds-float_left nds-size_10-of-12">
+                <abbr aria-hidden="true" title="required" class="slds-required">*</abbr>
+                <span>Confirm if you are:</span>
+              </div>
+            <div class="nds-float_right nds-size_1-of-12 nds-text-align_right"></div>
+            </div>
+          </legend>
+          <div class="nds-form-element__control nds-vertical_radio">
+            <span class="nds-radio">
+              <input type="radio" id="vlocity-radio-4-0-88" data-index="0" name="LicenceHolderSelector" required="" value="value 1">
+              <label data-index="0" for="vlocity-radio-4-0-88" class="nds-radio__label">
+                <span class="nds-radio_faux"></span>
+                <span class="nds-form-element__label">Licence holder</span>
+              </label>
+              </span>
+            <span class="nds-radio">
+              <input type="radio" id="vlocity-radio-4-1-88" data-index="1" name="LicenceHolderSelector" required="" value="value 2">
+              <label data-index="1" for="vlocity-radio-4-1-88" class="nds-radio__label">
+                <span class="nds-radio_faux"></span>
+                <span class="nds-form-element__label">Applying on behalf of a licence holder</span>
+              </label>
+            </span>
+          </div>
+        </fieldset>
+        <div class="nds-form-element__help">Required</div>
+        </div>`);
+  }).add('Required No Error OmniScript 1', () => {
+    return withExample(`
+    <div class="nds-form-element nds-form-container">
+    <fieldset>
+      <legend
+        class="nds-form-element__legend nds-form-element__label nds-form-element__control-help nds-radio-relative-tooltip nds-container_fluid">
+        <div class="nds-clearfix nds-container_fluid">
+          <div class="nds-float_left nds-size_10-of-12"><abbr aria-hidden="true" title="required"
+              class="slds-required">*</abbr><span>Confirm if you are:</span></div>
+          <div class="nds-float_right nds-size_1-of-12 nds-text-align_right"></div>
+        </div>
+      </legend>
+      <div class="nds-form-element__control nds-vertical_radio"><span class="nds-radio"><input type="radio"
+            id="vlocity-radio-4-0-88" data-index="0" name="LicenceHolderSelector" required="" value="value 1"><label
+            data-index="0" for="vlocity-radio-4-0-88" class="nds-radio__label"><span class="nds-radio_faux"></span><span
+              class="nds-form-element__label">Licence holder</span></label></span><span class="nds-radio"><input
+            type="radio" id="vlocity-radio-4-1-88" data-index="1" name="LicenceHolderSelector" required=""
+            value="value 2"><label data-index="1" for="vlocity-radio-4-1-88" class="nds-radio__label"><span
+              class="nds-radio_faux"></span><span class="nds-form-element__label">Applying on behalf of a licence
+              holder</span></label></span></div>
+    </fieldset>
+  </div>`);
   });
+
+  
