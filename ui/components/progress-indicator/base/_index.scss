@@ -7,7 +7,7 @@
  * @restrict div
  * @variant
  */
-.nds-progress {
+ .nds-progress {
   position: relative;
   max-width: 70%;
   flex: 1 1 auto;
@@ -27,7 +27,8 @@
 
       &.nds-is-completed .nds-progress__marker,
       &.nds-is-active .nds-progress__marker {
-        background: $progress-color-background-shade;
+        // background: $progress-color-background-shade;
+        background: $wsv-progress-bar-color-completed;
       }
 
       &.nds-is-completed .nds-progress__marker_icon,
@@ -98,7 +99,8 @@
   outline: none;
 
   .nds-button__icon {
-    fill: $color-blue-text-primary;
+    // fill: $color-blue-text-primary;
+    fill: $wsv-progress-bar-color-completed;
   }
 
   &.nds-is-nonpristine .nds-progress__marker {
@@ -109,7 +111,7 @@
   &.nds-is-completed .nds-progress__marker,
   &.nds-is-active .nds-progress__marker {
     background: $progress-color-background;
-    border-color: $progress-color-border-active;
+    border-color: $wsv-progress-bar-color-inprogress;
   }
 
   /**
@@ -125,7 +127,8 @@
   &.nds-is-completed .nds-progress__marker_icon,
   &.nds-is-completed .nds-progress__marker--icon {
     border-color: $progress-color-background;
-    color: $progress-bar-color-background-fill;
+    // color: $progress-bar-color-background-fill;
+    color: $wsv-progress-bar-color-completed-hover;
     box-shadow: unset;
   }
 
@@ -163,7 +166,8 @@
 
     &:hover,
     &:focus {
-      border-color: $progress-color-border-hover;
+      // border-color: $progress-color-border-hover;
+      border-color: $wsv-progress-bar-color-inprogress-hover;
     }
 
     &:focus {
@@ -221,7 +225,7 @@
   position: relative;
   border-radius: $border-radius-circle;
   background: $progress-bar-color-background;
-  border: 4px solid $progress-color-border;
+  border: 2px solid $progress-color-border;
   vertical-align: middle;
 
   /**
