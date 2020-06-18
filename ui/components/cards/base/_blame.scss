@@ -1,25 +1,24 @@
 // Copyright (c) 2015-present, salesforce.com, inc. All rights reserved
 // Licensed under BSD 3-Clause - see LICENSE.txt or git.io/sfdc-license
 
-
 // These .nds-card-wrapper classes all give us the ability to add a class
 // that doesn't exist in Communities to add a card look in different
 // circumstances. It can also be used to combine several cards into a one
 // card look. This class does not react to the .nds-card_boundary.
 .nds-card-wrapper {
-  padding: $card-wrapper-spacing;
-  background: $card-color-background;
-  border: $border-width-thin solid $card-color-border;
-  border-radius: $border-radius-medium;
-  background-clip: padding-box;
-  box-shadow: $card-shadow;
+	padding: $card-wrapper-spacing;
+	background: $card-color-background;
+	border: $border-width-thin solid $card-color-border;
+	border-radius: $border-radius-medium;
+	background-clip: padding-box;
+	box-shadow: $card-shadow;
 
-  .nds-card__header,
-  .nds-card__body,
-  .nds-card__footer {
-    padding-#{$left}: 0;
-    padding-#{$right}: 0;
-  }
+	.nds-card__header,
+	.nds-card__body,
+	.nds-card__footer {
+		padding-#{$left}: 0;
+		padding-#{$right}: 0;
+	}
 }
 
 .nds-card,
@@ -29,14 +28,13 @@
 .nds-tabs--default,
 .nds-tabs_card,
 .nds-tabs_card.nds-tabs_card {
-
-  // Make cards inside these elements render invisibly.
-  .nds-card,
-  .nds-card-wrapper {
-    background: $card-color-background;
-    border: 0;
-    box-shadow: none;
-  }
+	// Make cards inside these elements render invisibly.
+	.nds-card,
+	.nds-card-wrapper {
+		background: $card-color-background;
+		border: 0;
+		box-shadow: none;
+	}
 }
 
 // Bring cards back from the dead and give them a border when needed
@@ -44,11 +42,10 @@
 .nds-modal,
 .nds-tabs_default,
 .nds-tabs--default {
-
-  .nds-card_boundary {
-    border: $border-width-thin solid $card-color-border;
-    border-radius: $border-radius-medium;
-  }
+	.nds-card_boundary {
+		border: $border-width-thin solid $card-color-border;
+		border-radius: $border-radius-medium;
+	}
 }
 
 /**
@@ -59,46 +56,331 @@
  */
 .nds-tabs_card,
 .nds-tabs_card.nds-tabs_card {
-  padding: $card-wrapper-spacing; // Use card tokens to keep this tab style looking like a card
-  box-shadow: $card-shadow;
-  border: $border-width-thin solid $card-color-border;
-  border-radius: $border-radius-medium;
+	padding: $card-wrapper-spacing; // Use card tokens to keep this tab style looking like a card
+	box-shadow: $card-shadow;
+	border: $border-width-thin solid $card-color-border;
+	border-radius: $border-radius-medium;
 
-  // This removes the padding for the plain cards when inside a padded tabset
-  .nds-card,
-  .nds-card-wrapper {
-    padding-#{$left}: 0;
-    padding-#{$right}: 0;
-  }
+	// This removes the padding for the plain cards when inside a padded tabset
+	.nds-card,
+	.nds-card-wrapper {
+		padding-#{$left}: 0;
+		padding-#{$right}: 0;
+	}
 
-  // Pull cards to edge of already padded tab content area
-  .nds-card__header,
-  .nds-card__body,
-  .nds-card__footer {
-    padding-#{$left}: 0;
-    padding-#{$right}: 0;
-    margin-#{$left}: 0;
-    margin-#{$right}: 0;
-  }
+	// Pull cards to edge of already padded tab content area
+	.nds-card__header,
+	.nds-card__body,
+	.nds-card__footer {
+		padding-#{$left}: 0;
+		padding-#{$right}: 0;
+		margin-#{$left}: 0;
+		margin-#{$right}: 0;
+	}
 
-  // Restore cards inside .nds-tabs_card when needed
-  .nds-card_boundary {
-    border: $border-width-thin solid $card-color-border;
-    border-radius: $border-radius-medium;
+	// Restore cards inside .nds-tabs_card when needed
+	.nds-card_boundary {
+		border: $border-width-thin solid $card-color-border;
+		border-radius: $border-radius-medium;
 
-    .nds-card__header {
-      padding-#{$left}: $card-header-padding;
-      padding-#{$right}: $card-header-padding;
-    }
+		.nds-card__header {
+			padding-#{$left}: $card-header-padding;
+			padding-#{$right}: $card-header-padding;
+		}
 
-    .nds-card__body_inner,
-    .nds-card__body--inner {
-      padding: $card-body-padding;
-    }
+		.nds-card__body_inner,
+		.nds-card__body--inner {
+			padding: $card-body-padding;
+		}
 
-    .nds-card__footer {
-      padding-#{$left}: $card-footer-padding;
-      padding-#{$right}: $card-footer-padding;
-    }
-  }
+		.nds-card__footer {
+			padding-#{$left}: $card-footer-padding;
+			padding-#{$right}: $card-footer-padding;
+		}
+	}
+}
+// WSV Custom Card Classes, ideal to organize code
+
+.nds-card {
+	//mixins, shorten code, modularize
+	@mixin wsv-main-card-style {
+		overflow: hidden;
+		border-radius: 12px;
+		background: none;
+		box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 4px 0px;
+	}
+	@mixin wsv-header-style($paddingLeft, $paddingTop, $paddingRight, $marginBottom) {
+		padding-left: $paddingLeft;
+		padding-top: $paddingTop;
+		padding-right: $paddingRight;
+		margin-bottom: $marginBottom;
+	}
+	@mixin wsv-header($height) {
+		height: $height;
+		background-color: #f2f2f2;
+	}
+	//lists
+	@mixin wsv-list-content-container($padding) {
+		font-size: 17px;
+		padding: $padding;
+		width: 100%;
+		min-height: 66px;
+	}
+	@mixin wsv-list-item-label {
+		font-size: 17px;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.41;
+		letter-spacing: normal;
+		color: #000000;
+	}
+	//messages
+	@mixin wsv-message-container($padding, $width, $height, $borderTopWidth) {
+		padding: $padding;
+		width: $width;
+		height: $height;
+		border-top: solid $borderTopWidth #f2f2f2;
+	}
+	@mixin wsv-message-sender($fontSize, $width, $lineHeight) {
+		font-size: $fontSize;
+		width: $width;
+		font-weight: 700;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: $lineHeight;
+		letter-spacing: normal;
+		color: #000000;
+	}
+
+	/**
+    * Media queries for cards
+  */
+	//small screens up to 768px, use framework mixin
+	@include mq-medium-max {
+		.wsv-show-in-mobile {
+			display: inline;
+		}
+		&.wsv-main-card-style {
+			@include wsv-main-card-style;
+			width: 316px;
+			margin: 0 5px;
+		}
+		.nds-card__header {
+			//.nds-card__header.wsv-header-style
+			&.wsv-header-style {
+				@include wsv-header-style(20px, 2px, 20px, 0);
+				//.nds-card__header.wsv-header-style&.wsv-header
+				&.wsv-header {
+					@include wsv-header(72px);
+				}
+			}
+		}
+		//nds item in a list
+		.nds-item {
+			.wsv-list-content-container {
+				@include wsv-list-content-container(22px 20px);
+			}
+
+			.wsv-list-item-label {
+				@include wsv-list-item-label;
+				height: 48px;
+				width: 186px;
+			}
+		}
+
+		//messages
+		.wsv-message-container {
+			@include wsv-message-container(13px 16px, 316px, 104px, 2px);
+		}
+		.wsv-message-container.unread {
+			box-shadow: inset 2px 0 0 0 #fdb813, inset 0 -2px 0 0 #f2f2f2;
+		}
+
+		.wsv-message-sender {
+			@include wsv-message-sender(16px, 175px, 1.5);
+		}
+
+		.wsv-message-subject {
+			font-size: 16px;
+			width: 284px;
+			font-weight: 700;
+			font-stretch: normal;
+			font-style: normal;
+			line-height: 1.5;
+			letter-spacing: normal;
+			color: #000000;
+			float: left;
+		}
+
+		.wsv-message-text {
+			font-size: 16px;
+			float: left;
+		}
+		.wsv-message-attachment {
+			font-size: 14px;
+		}
+		// profile card
+		.wsv-box-align-mobile {
+			margin: 0 auto;
+		}
+		.wsv-text-align-mobile {
+			text-align: center;
+		}
+	}
+
+	//medium to large screens, use framework mixin
+	@include mq-medium-min {
+		.wsv-show-in-mobile {
+			display: none;
+		}
+		&.wsv-main-card-style {
+			@include wsv-main-card-style;
+			width: 608px;
+			min-height: 466px;
+		}
+		//.nds-card__header.wsv-header-style
+		.nds-card__header {
+			&.wsv-header-style {
+				@include wsv-header-style(40px, 2px, 40px, 0);
+				//.nds-card__header.wsv-header-style&.wsv-header
+				&.wsv-header {
+					@include wsv-header(96px);
+				}
+			}
+		}
+		//list items
+		.nds-item {
+			.wsv-list-content-container {
+				@include wsv-list-content-container(20px 40px);
+			}
+
+			.wsv-list-item-label {
+				@include wsv-list-item-label;
+			}
+		}
+
+		//messages
+		.wsv-message-container {
+			@include wsv-message-container(16px 24px,608px,117px, 4px);
+		}
+		.wsv-message-container.unread {
+			box-shadow: inset 4px 0 0 0 #fdb813;
+		}
+		.wsv-message-sender {
+			@include wsv-message-sender(17px, 438px, 1.65);
+		}
+
+		.wsv-message-subject {
+			font-size: 17px;
+			width: 560px;
+			font-weight: 700;
+			font-stretch: normal;
+			font-style: normal;
+			line-height: 1.65;
+			letter-spacing: normal;
+			color: #000000;
+		}
+		.wsv-message-attachment {
+			font-size: 15px;
+		}
+		.wsv-message-text {
+			font-size: 17px;
+		}
+	}
+
+	/**
+    * Loose Classes used in cards
+    */
+	//task specific
+	.wsv-button-no-border {
+		border: none;
+		padding: 0;
+		margin: 0;
+		background-color: inherit;
+		text-align: inherit;
+
+		&:hover {
+			background-color: #f2f2f2;
+		}
+	}
+	.wsv_activeStateTaskLabel {
+		width: 424px;
+		height: 28px;
+		font-size: 17px;
+		font-weight: normal;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.65;
+		letter-spacing: normal;
+		color: #000000;
+	}
+	//messages specific
+	.wsv-messages {
+		/* font-family: NHaasGroteskDSPro-75Bd; */
+		font-size: 24px;
+		font-weight: 800;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.33;
+		letter-spacing: normal;
+		color: #000000;
+	}
+
+	.wsv-label {
+		/* font-family: NHaasGroteskDSPro-75Bd; */
+		font-size: 17px;
+		font-weight: 800;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.65;
+		letter-spacing: normal;
+		color: #000000;
+	}
+	.wsv-attachment-icon-rotate {
+		transform: rotate(-22deg);
+		display: inline-block;
+	}
+	.wsv-button-no-border {
+		border: none;
+		padding: 0;
+		margin: 0;
+		background-color: inherit;
+		text-align: inherit;
+	}
+	.wsv-list-item-badge {
+		border-radius: 19px;
+		background-color: rgba(0, 0, 0, 0.05);
+		width: 48px;
+		height: 32px;
+		font-size: 15px;
+		font-weight: 700;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 32px;
+		letter-spacing: normal;
+		text-align: center;
+		color: #000000;
+	}
+	//profile
+	.wsv-add-team-member-box {
+		max-width: 150px;
+		min-height: 150px;
+		border: 2px dotted rgb(221, 219, 218);
+	}
+	.outerCircle {
+		width: 65px;
+		height: 65px;
+		border-radius: 50%;
+		background-color: #f2f2f2;
+		align-content: center;
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0 auto;
+	}
+
+	.wsv-card-team-member-box {
+		width: 150px;
+		height: 150px;
+		border: 2px solid rgb(221, 219, 218);
+	}
 }

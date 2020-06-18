@@ -191,7 +191,7 @@ storiesOf(`${base}`, module)
                             <vlocity_ins-icon c-wsvcardtask_wsvcardtask=""><svg aria-hidden="true"
                                 class="nds-icon nds-icon-standard-clock nds-icon-text-default nds-icon_x-small">
                                 <use
-                                  xlink:href="#httpswsvvlocitywsvportalcs152forcecomresource1589528949000vlocityinsnewportassetsiconsutilityspritesvgsymbolssvg_chevronright">
+                                  xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#chevronright">
                                 </use>
                               </svg><span class="nds-assistive-text"></span></vlocity_ins-icon>
                           </div>
@@ -215,7 +215,7 @@ storiesOf(`${base}`, module)
                             <vlocity_ins-icon c-wsvcardtask_wsvcardtask=""><svg aria-hidden="true"
                                 class="nds-icon nds-icon-standard-clock nds-icon-text-default nds-icon_x-small">
                                 <use
-                                  xlink:href="#httpswsvvlocitywsvportalcs152forcecomresource1589528949000vlocityinsnewportassetsiconsutilityspritesvgsymbolssvg_chevronright">
+                                  xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#chevronright">
                                 </use>
                               </svg><span class="nds-assistive-text"></span></vlocity_ins-icon>
                           </div>
@@ -238,7 +238,7 @@ storiesOf(`${base}`, module)
                             <vlocity_ins-icon c-wsvcardtask_wsvcardtask=""><svg aria-hidden="true"
                                 class="nds-icon nds-icon-standard-clock nds-icon-text-default nds-icon_x-small">
                                 <use
-                                  xlink:href="#httpswsvvlocitywsvportalcs152forcecomresource1589528949000vlocityinsnewportassetsiconsutilityspritesvgsymbolssvg_chevronright">
+                                  xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#chevronright">
                                 </use>
                               </svg><span class="nds-assistive-text"></span></vlocity_ins-icon>
                           </div>
@@ -261,7 +261,7 @@ storiesOf(`${base}`, module)
                             <vlocity_ins-icon c-wsvcardtask_wsvcardtask=""><svg aria-hidden="true"
                                 class="nds-icon nds-icon-standard-clock nds-icon-text-default nds-icon_x-small">
                                 <use
-                                  xlink:href="#httpswsvvlocitywsvportalcs152forcecomresource1589528949000vlocityinsnewportassetsiconsutilityspritesvgsymbolssvg_chevronright">
+                                  xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#chevronright">
                                 </use>
                               </svg><span class="nds-assistive-text"></span></vlocity_ins-icon>
                           </div>
@@ -285,7 +285,7 @@ storiesOf(`${base}`, module)
                             <vlocity_ins-icon c-wsvcardtask_wsvcardtask=""><svg aria-hidden="true"
                                 class="nds-icon nds-icon-standard-clock nds-icon-text-default nds-icon_x-small">
                                 <use
-                                  xlink:href="#httpswsvvlocitywsvportalcs152forcecomresource1589528949000vlocityinsnewportassetsiconsutilityspritesvgsymbolssvg_chevronright">
+                                  xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#chevronright">
                                 </use>
                               </svg><span class="nds-assistive-text"></span></vlocity_ins-icon>
                           </div>
@@ -303,7 +303,7 @@ storiesOf(`${base}`, module)
     );
   }).add('WSV - Messages', () => {
     return withExample(
-      `<c-wsv-base-card c-wsvcardactivestatemessages_wsvcardactivestatemessages="" c-wsvbasecard_wsvbasecard-host="">
+      `
       <div c-wsvbasecard_wsvbasecard="" class="nds-medium-size_1-of-2 nds-m-top_medium nds-small-size_1-of-1">
         <div c-wsvbasecard_wsvbasecard="" class="nds-card via-nds-card--active wsv-main-card-style">
           <div c-wsvbasecard_wsvbasecard="" class="nds-card__header nds-grid wsv-header wsv-header-style">
@@ -337,7 +337,7 @@ storiesOf(`${base}`, module)
                                   <vlocity_ins-icon c-wsvcardmessage_wsvcardmessage=""><svg aria-hidden="true"
                                       class="nds-icon nds-icon-standard-clock wsv-attachment-icon-rotate nds-icon-text-default nds-icon_x-small">
                                       <use
-                                        xlink:href="#httpswsvvlocitywsvportalcs152forcecomresource1589528949000vlocityinsnewportassetsiconsutilityspritesvgsymbolssvg_attach">
+                                        xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#attach">
                                       </use>
                                     </svg><span class="nds-assistive-text"></span></vlocity_ins-icon>
                                 </span>12/05/2020</div>
@@ -369,7 +369,7 @@ storiesOf(`${base}`, module)
                                   <vlocity_ins-icon c-wsvcardmessage_wsvcardmessage=""><svg aria-hidden="true"
                                       class="nds-icon nds-icon-standard-clock wsv-attachment-icon-rotate nds-icon-text-default nds-icon_x-small">
                                       <use
-                                        xlink:href="#httpswsvvlocitywsvportalcs152forcecomresource1589528949000vlocityinsnewportassetsiconsutilityspritesvgsymbolssvg_attach">
+                                        xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#attach">
                                       </use>
                                     </svg><span class="nds-assistive-text"></span></vlocity_ins-icon>
                                 </span>10/05/2020</div>
@@ -401,7 +401,7 @@ storiesOf(`${base}`, module)
                                   <vlocity_ins-icon c-wsvcardmessage_wsvcardmessage=""><svg aria-hidden="true"
                                       class="nds-icon nds-icon-standard-clock wsv-attachment-icon-rotate nds-icon-text-default nds-icon_x-small">
                                       <use
-                                        xlink:href="#httpswsvvlocitywsvportalcs152forcecomresource1589528949000vlocityinsnewportassetsiconsutilityspritesvgsymbolssvg_attach">
+                                      xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#attach">
                                       </use>
                                     </svg><span class="nds-assistive-text"></span></vlocity_ins-icon>
                                 </span>01/05/2020</div>
@@ -424,11 +424,11 @@ storiesOf(`${base}`, module)
           </div>
         </div>
       </div>
-    </c-wsv-base-card>`
+    `
     );
   }).add('WSV - In progress activity', () => {
     return withExample(
-      `<c-wsv-base-card c-wsvcardactivestateactivity_wsvcardactivestateactivity="" c-wsvbasecard_wsvbasecard-host="">
+      `
       <div c-wsvbasecard_wsvbasecard="" class="nds-medium-size_1-of-2 nds-m-top_medium nds-small-size_1-of-1">
           <div c-wsvbasecard_wsvbasecard="" class="nds-card via-nds-card--active wsv-main-card-style">
               <div c-wsvbasecard_wsvbasecard="" class="nds-card__header nds-grid wsv-header wsv-header-style">
@@ -461,7 +461,7 @@ storiesOf(`${base}`, module)
                                                               class="nds-icon nds-icon-standard-clock nds-icon-text-default nds-icon_x-small"
                                                               style="fill: rgb(71, 123, 76);">
                                                               <use
-                                                                  xlink:href="#httpswsvvlocitywsvportalcs152forcecomresource1589528949000vlocityinsnewportassetsiconsutilityspritesvgsymbolssvg_check">
+                                                                  xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#check">
                                                               </use>
                                                           </svg><span class="nds-assistive-text"></span>
                                                       </vlocity_ins-icon>
@@ -493,7 +493,7 @@ storiesOf(`${base}`, module)
                                                               class="nds-icon nds-icon-standard-clock nds-icon-text-default nds-icon_x-small"
                                                               style="fill: rgb(117, 117, 117);">
                                                               <use
-                                                                  xlink:href="#httpswsvvlocitywsvportalcs152forcecomresource1589528949000vlocityinsnewportassetsiconsutilityspritesvgsymbolssvg_clock">
+                                                                  xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#clock">
                                                               </use>
                                                           </svg><span class="nds-assistive-text"></span>
                                                       </vlocity_ins-icon>
@@ -525,7 +525,7 @@ storiesOf(`${base}`, module)
                                                               class="nds-icon nds-icon-standard-clock nds-icon-text-default nds-icon_x-small"
                                                               style="fill: rgb(117, 117, 117);">
                                                               <use
-                                                                  xlink:href="#httpswsvvlocitywsvportalcs152forcecomresource1589528949000vlocityinsnewportassetsiconsutilityspritesvgsymbolssvg_edit">
+                                                                  xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#edit">
                                                               </use>
                                                           </svg><span class="nds-assistive-text"></span>
                                                       </vlocity_ins-icon>
@@ -556,7 +556,7 @@ storiesOf(`${base}`, module)
                                                               class="nds-icon nds-icon-standard-clock nds-icon-text-default nds-icon_x-small"
                                                               style="fill: rgb(197, 32, 7);">
                                                               <use
-                                                                  xlink:href="#httpswsvvlocitywsvportalcs152forcecomresource1589528949000vlocityinsnewportassetsiconsutilityspritesvgsymbolssvg_warning">
+                                                                  xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#warning">
                                                               </use>
                                                           </svg><span class="nds-assistive-text"></span>
                                                       </vlocity_ins-icon>
@@ -579,12 +579,11 @@ storiesOf(`${base}`, module)
               </div>
           </div>
       </div>
-  </c-wsv-base-card>`
+  `
     );
   }).add('WSV - Profile Card', () => {
     return withExample(
-      `<c-wsv-card-profile-base data-index="0" class="cf-vlocity-state-0 cf-vlocity-state"
-      c-wsvcardprofilebase_wsvcardprofilebase-host="">
+      `
       <div c-wsvcardprofilebase_wsvcardprofilebase=""
           class="nds-medium-size_1-of-2 nds-m-top_medium nds-small-size_1-of-1">
           <div c-wsvcardprofilebase_wsvcardprofilebase="" class="nds-card via-nds-card--active wsv-main-card-style">
@@ -594,7 +593,7 @@ storiesOf(`${base}`, module)
                       <div c-wsvcardprofilebase_wsvcardprofilebase="" class="nds-media__figure">
                           <div c-wsvcardprofilebase_wsvcardprofilebase="" class="outerCircle nds-align_absolute-center">
                               <img c-wsvcardprofilebase_wsvcardprofilebase="" alt="organization"
-                                  src="/resource/1590277198000/Organisation2x" style="height: 50%; width: 50%;"></div>
+                                  src="/assets/icons/utility/photo_120.png" style="height: 50%; width: 50%;"></div>
                       </div>
                       <div c-wsvcardprofilebase_wsvcardprofilebase="" class="nds-media__body nds-truncate">
                           <h3 c-wsvcardprofilebase_wsvcardprofilebase=""></h3>
@@ -607,7 +606,7 @@ storiesOf(`${base}`, module)
                           class="nds-text-heading--medium nds-p-around_medium"><strong
                               c-wsvcardprofilebase_wsvcardprofilebase="">Tarun Taverna</strong></div>
                       <div c-wsvcardprofilebase_wsvcardprofilebase="" class="nds-p-around_medium nds-p-bottom_large"><a
-                              c-wsvcardprofilebase_wsvcardprofilebase="" href="https://www.cumulusinc.com.au/"
+                              c-wsvcardprofilebase_wsvcardprofilebase="" href="#"
                               target="_blank" class="nds-text-link nds-text-heading_small"><u
                                   c-wsvcardprofilebase_wsvcardprofilebase="">View business profile</u></a></div>
                   </div>
@@ -704,7 +703,7 @@ storiesOf(`${base}`, module)
                                                           class="nds-icon nds-icon-text-default nds-icon_small"
                                                           style="fill: black;">
                                                           <use
-                                                              xlink:href="#httpswsvvlocitywsvportalcs152forcecomresource1589528949000vlocityinsnewportassetsiconsutilityspritesvgsymbolssvg_add">
+                                                              xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#add">
                                                           </use>
                                                       </svg><span class="nds-assistive-text"></span></vlocity_ins-icon>
                                               </div>
@@ -722,6 +721,6 @@ storiesOf(`${base}`, module)
               </div>
           </div>
       </div>
-  </c-wsv-card-profile-base>`
+  `
     );
   });
