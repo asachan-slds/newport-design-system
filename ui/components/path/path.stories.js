@@ -1678,4 +1678,72 @@ storiesOf(`${base}`, module)
     </div><br c-wsvomniscriptstepchart_wsvomniscriptstepchart="">
   </div>
     `);
+  }).add('WSV - Step Chart - Print/Save and Resume', () => {
+    return withExample(`
+    <div style="height:250px;">
+      <div c-wsvomniscriptstepchart_wsvomniscriptstepchart=""
+      class="nds-size_1-of-1 nds-small-size_1-of-1 nds-medium-size_1-of-1 nds-large-size_9-of-12 nds-align_absolute-center nds-grid nds-m-top_x-large">
+      <div c-wsvomniscriptstepchart_wsvomniscriptstepchart="" class="nds-size_1-of-1">
+        <div c-wsvomniscriptstepchart_wsvomniscriptstepchart="" class="nds-path">
+          <ol c-wsvomniscriptstepchart_wsvomniscriptstepchart="" class="nds-path__nav wsv-nds-path__nav">
+            <c-wsv-omniscript-step-chart-items c-wsvomniscriptstepchart_wsvomniscriptstepchart=""
+              class="wsv-steps-container" c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems-host="">
+              <div c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="0"
+                class="step wsv-nds-is-completed step-first">
+                <div c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="0" class="wsv-truncate"><span
+                    c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="0"
+                    class="wsv-number-circle"><svg c-wsvOmniscriptStepChartItems_wsvOmniscriptStepChartItems=""
+                      data-index="0" aria-hidden="true" class="nds-button__icon slds-current-color wsv-svg-icon">
+                      <use c-wsvOmniscriptStepChartItems_wsvOmniscriptStepChartItems="" data-index="0"
+                        xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#check"></use>
+                    </svg></span><span c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="0"
+                    class="wsv-step-text" style="border-radius: 0.25rem 0rem 0rem 0.25rem;">Business details</span></div>
+              </div>
+            </c-wsv-omniscript-step-chart-items>
+            <c-wsv-omniscript-step-chart-items c-wsvomniscriptstepchart_wsvomniscriptstepchart=""
+              class="wsv-steps-container" c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems-host="">
+              <div c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="1"
+                class="step wsv-nds-is-active wsv-nds-is-current">
+                <div c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="1" class="wsv-truncate"><span
+                    c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="1"
+                    class="wsv-number-circle">2</span><span c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems=""
+                    data-index="1" class="wsv-step-text" style="border-radius: 0.25rem 0rem 0rem 0.25rem;">Responsible
+                    Persons</span></div>
+              </div>
+            </c-wsv-omniscript-step-chart-items>
+            <c-wsv-omniscript-step-chart-items c-wsvomniscriptstepchart_wsvomniscriptstepchart=""
+              class="wsv-steps-container" c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems-host="">
+              <div c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="2" class="step">
+                <div c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="2" class="wsv-truncate"><span
+                    c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="2"
+                    class="wsv-number-circle">3</span><span c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems=""
+                    data-index="2" class="wsv-step-text" style="border-radius: 0.25rem 0rem 0rem 0.25rem;">Licence
+                    type</span></div>
+              </div>
+            </c-wsv-omniscript-step-chart-items>
+            <c-wsv-omniscript-step-chart-items c-wsvomniscriptstepchart_wsvomniscriptstepchart=""
+              class="wsv-steps-container" c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems-host="">
+              <div c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="3" class="step step-last">
+                <div c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="3" class="wsv-truncate"><span
+                    c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="3"
+                    class="wsv-number-circle">4</span><span c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems=""
+                    data-index="3" class="wsv-step-text"
+                    style="border-radius: 0.25rem 0rem 0rem 0.25rem;">Declaration</span></div>
+              </div>
+            </c-wsv-omniscript-step-chart-items>
+          </ol>
+        </div>
+      </div><br c-wsvomniscriptstepchart_wsvomniscriptstepchart="">
+    </div>
+    <div c-wsvomniscriptstepchart_wsvomniscriptstepchart="" style="position:relative;"
+    class="nds-size_1-of-1 nds-small-size_1-of-1 nds-medium-size_1-of-1 nds-large-size_9-of-12 nds-align_absolute-center wsv-grid nds-m-top_x-large nds-grid_align-center">
+    <div c-wsvomniscriptstepchart_wsvomniscriptstepchart="" class="nds-wrap wsv-stepchart-btn-container"  style="left: 850px;"><button
+        c-wsvomniscriptstepchart_wsvomniscriptstepchart="" type="button"
+        class="vlocity-btn nds-button nds-size_1-of-1 nds-button_neutral wsv-btn-stepchart wsv-btn-print">Print</button><button
+        c-wsvomniscriptstepchart_wsvomniscriptstepchart="" type="button"
+        class="vlocity-btn nds-button nds-size_1-of-1 nds-button_neutral wsv-btn-stepchart wsv-btn-save">Save &amp; resume
+        later</button></div>
+    </div>
+  </div>
+    `);
   });

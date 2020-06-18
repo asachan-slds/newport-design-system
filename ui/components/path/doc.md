@@ -1,6 +1,10 @@
+
 # Path
 
 A process component communicates to the user the progress of a particular process.
+
+# Step Chart
+**Please Note!** style, postion relative and left postioning is not needed in omniscript.
 
 ## Accessibility
 

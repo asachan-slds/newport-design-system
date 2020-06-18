@@ -20,39 +20,6 @@
 			}
 		}
 
-		.wsv-grid {
-			display: flex;
-			align-items: center;
-			justify-content: flex-end;
-		}
-
-		.wsv-stepchart-btn-container {
-			position: absolute;
-			margin-top: 6rem;
-			padding-right: 1rem;
-		}
-
-		.wsv-btn-stepchart {
-			border: 0;
-			padding: 0.01rem 0;
-			box-shadow: 0 1px 6px -1px $btn-step-chart-box-shadow;
-			height: 40px;
-		}
-
-		.wsv-btn-print {
-			width: 76px;
-			margin-right: 0.5rem;
-		}
-		.wsv-btn-save {
-			width: 174px;
-		}
-
-		@media (max-width: 48em) {
-			.wsv-stepchart-btn-container {
-				position: relative;
-				margin-top: 0rem;
-			}
-		}
 		// WSV custom lwc stepchart items
 		.step {
 			font-size: 14px;
@@ -152,7 +119,7 @@
 		.step.wsv-nds-is-current,
 		.wsv-number-circle .wsv-number-circle {
 			color: #000;
-			background-color:$step-number-circle-background;
+			background-color: $step-number-circle-background;
 		}
 		.step.wsv-nds-is-current:after {
 			border-left: 24px solid $step-current-step-after-border-color;
@@ -291,4 +258,37 @@
 			}
 		}
 	}
+}
+.wsv-grid {
+	.wsv-stepchart-btn-container {
+		.wsv-btn-stepchart {
+			border: 0;
+			padding: 0.01rem 0;
+			box-shadow: 0 1px 6px -1px $btn-step-chart-box-shadow;
+			height: 40px;
+		}
+
+		.wsv-btn-print {
+			width: 76px;
+			margin-right: 0.5rem;
+		}
+		.wsv-btn-save {
+			width: 174px;
+		}
+
+		@media (max-width: 48em) {
+			.wsv-stepchart-btn-container {
+				position: relative;
+				margin-top: 0rem;
+			}
+		}
+
+		position: absolute;
+		margin-top: 6rem;
+		padding-right: 1rem;
+	}
+
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
 }
