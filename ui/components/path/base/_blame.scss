@@ -1,4 +1,4 @@
-//custom stepchart classes, just put them under the class 
+//custom stepchart classes, just put them under the class to
 .nds-path {
 	.nds-path__nav.wsv-nds-path__nav {
 		.omni-stepchart-heading {
@@ -35,7 +35,7 @@
 		.wsv-btn-stepchart {
 			border: 0;
 			padding: 0.01rem 0;
-			box-shadow: 0 1px 6px -1px #888888;
+			box-shadow: 0 1px 6px -1px $btn-step-chart-box-shadow;
 			height: 40px;
 		}
 
@@ -57,7 +57,7 @@
 		.step {
 			font-size: 14px;
 			text-align: center;
-			color: #545454;
+			color: $step-font-color;
 			cursor: default;
 			margin: 0 3px;
 			/* padding: 10px 30px 5px 30px; */
@@ -67,7 +67,7 @@
 			text-align: center;
 			text-align: -webkit-center;
 			position: relative;
-			background-color: #f2f2f2;
+			background-color: $step-border-color;
 			user-select: none;
 			width: -webkit-fill-available;
 			text-overflow: ellipsis;
@@ -87,15 +87,15 @@
         border-bottom: 19px solid transparent; */
 			border-top: 24px solid transparent;
 			border-bottom: 24px solid transparent;
-			/* border-left: 17px solid #f2f2f2;	 */
-			border-left: 24px solid #f2f2f2;
+			/* border-left: 17px solid $step-border-color;	 */
+			border-left: 24px solid $step-border-color;
 
 			z-index: 2;
 		}
 		.step:before {
 			right: auto;
 			left: 0;
-			border-left: 24px solid #fff;
+			border-left: 24px solid $white;
 			z-index: 0;
 		}
 
@@ -121,18 +121,18 @@
 
 		.wsv-step-text {
 			color: inherit;
-			font-family: "NHassGrotesk", Arial, Helvetica, sans-serif;
+			font-family: $arial-helvetica;
 			font-size: 15px;
 			line-height: 28px;
 			font-weight: bold;
 			background: transparent;
 			position: relative;
 			top: -1px;
-        }
-        
+		}
+
 		.wsv-number-circle {
 			color: inherit;
-			font-family: "NHassGrotesk", Arial, Helvetica, sans-serif;
+			font-family: $arial-helvetica;
 			font-size: 17px;
 			line-height: 28px;
 			border-radius: 50%;
@@ -152,50 +152,50 @@
 		.step.wsv-nds-is-current,
 		.wsv-number-circle .wsv-number-circle {
 			color: #000;
-			background-color: #fdb813;
+			background-color:$step-number-circle-background;
 		}
 		.step.wsv-nds-is-current:after {
-			border-left: 24px solid #fdb813;
+			border-left: 24px solid $step-current-step-after-border-color;
 		}
 		/* Hover on current/actve step */
 		.step.wsv-nds-is-current:hover {
-			background: #d69b10;
+			background: $step-current-step-background-color;
 		}
 		.step.wsv-nds-is-current:hover:after {
-			border-left: 24px solid #d69b10;
+			border-left: 24px solid $step-current-step-after-border-color;
 		}
 
 		/* ----------------------- Step: complete ----------------------- */
 		/* Background color on complete step */
 		.step.wsv-nds-is-completed {
-			color: #fff;
-			background-color: #477b4c;
+			color: $white;
+			background-color: $newport-color-hippie-green;
 			cursor: pointer;
 		}
 		.step.wsv-nds-is-completed:after {
-			border-left: 24px solid #477b4c;
+			border-left: 24px solid $newport-color-hippie-green;
 		}
 		/* Hover on complete step */
 		.step.wsv-nds-is-completed:hover {
-			background: #38623c;
+			background: $step-background-color-completed;
 		}
 		.step.wsv-nds-is-completed:hover:after {
-			border-left: 24px solid #38623c;
+			border-left: 24px solid $step-border-color-completed-after-hover;
 		}
 
 		/* ----------------------- Step: non-pristine ----------------------- */
 		/* Background color on non-pristine step */
 		.step.wsv-nds-is-nonpristine {
-			color: #545454;
-			background-color: #f2f2f2;
+			color: $step-font-color;
+			background-color: $step-border-color;
 		}
 		.step.wsv-nds-is-nonpristine:after {
-			border-left: 24px solid #f2f2f2;
+			border-left: 24px solid $step-border-color;
 		}
 
 		/* Change the svg color */
 		svg.nds-button__icon.wsv-svg-icon {
-			stroke: #fff;
+			stroke: $white;
 			stroke-width: 4px;
 			padding-bottom: 2px;
 		}
@@ -227,32 +227,32 @@
 				right: -22px;
 				border-top: 22px solid transparent;
 				border-bottom: 22px solid transparent;
-				border-left: 22px solid #f2f2f2;
+				border-left: 22px solid $step-border-color;
 			}
 			.step:before {
-				border-left: 22px solid #fff;
+				border-left: 22px solid $white;
 			}
 			.wsv-number-circle {
 				width: 28px;
 				height: 28px;
 			}
 			.step.wsv-nds-is-nonpristine:after {
-				border-left: 22px solid #f2f2f2;
+				border-left: 22px solid $step-border-color;
 			}
 			.step.wsv-nds-is-nonpristine:after {
-				border-left: 22px solid #f2f2f2;
+				border-left: 22px solid $step-border-color;
 			}
 			.step.wsv-nds-is-completed:hover:after {
-				border-left: 22px solid #38623c;
+				border-left: 22px solid $step-border-color-completed-after-hover;
 			}
 			.step.wsv-nds-is-completed:after {
-				border-left: 22px solid #477b4c;
+				border-left: 22px solid $newport-color-hippie-green;
 			}
 			.step.wsv-nds-is-current:hover:after {
-				border-left: 22px solid #d69b10;
+				border-left: 22px solid $step-current-step-after-border-color;
 			}
 			.step.wsv-nds-is-current:after {
-				border-left: 22px solid #fdb813;
+				border-left: 22px solid $step-current-step-after-border-color;
 			}
 			svg.nds-button__icon.wsv-svg-icon {
 				padding-bottom: 3px;
