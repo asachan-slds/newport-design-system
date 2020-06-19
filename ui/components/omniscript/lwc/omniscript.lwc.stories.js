@@ -4783,6 +4783,199 @@ width: max-content;
             </div>
          </div>
       </div>
+      <!-- 3rd step -->
+      <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-size_1-of-1 wsv-step-block" style="padding-left: 0px;">
+         <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-p-left_small nds-p-right_small nds-block nds-clearfix">
+            <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-form-element__control nds-block_container"
+               style="display: block;"><label c-wsvomniblockwithstep_wsvomniblockwithstep="" role="button" tabindex="0"
+               class="nds-form-element__label nds-clearfix nds-m-bottom_none">
+               <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-grid nds-size_1-of-1"
+                  style="position: relative;">
+                  <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-show_small">
+                     <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                     class="stepOvalSize_default nds-text-heading_large stepOvalActive" style="display: flex;"><span
+                        c-wsvomniblockwithstep_wsvomniblockwithstep="" aria-label="Step 3;" class="nds-align_absolute-center"
+                        style="color: black;"><strong c-wsvomniblockwithstep_wsvomniblockwithstep="">3</strong></span></div>
+                     <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                     style="display: inline; align-items: stretch; min-width: 48px;"></div>
+                  </div>
+                  <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-hide_small">
+                     <div c-wsvomniblockwithstep_wsvomniblockwithstep="">
+                     <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-text-heading_large blockLabelTextClass"
+                        style="line-height: 25%; width: 48px;"> &nbsp;</div>
+                     <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="stepOvalSize_small stepOvalActiveSmall"></div>
+                     <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-clearfix"
+                        style="width: 4px; margin: auto;"></div>
+                     </div>
+                  </div>
+                  <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                     class="nds-form-element__label_toggle-text marginLeft marginVerticalHeader">
+                     <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-text-heading_large blockLabelTextClass"
+                     style="color: black;"><strong c-wsvomniblockwithstep_wsvomniblockwithstep="">Pay and submit</strong></div>
+                     <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-p-top_small nds-hide_small">
+                     <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                        class="nds-pill pillsmall_wsv nds-align_absolute-center nds-m-left_none">
+                        <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                           class="nds-pill__label nds-truncate nds-m-top_xxx-small"> Takes about 6 mins</div>
+                     </div>
+                     </div>
+                  </div>
+                  <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                     class="nds-pill nds-pill_wsv nds-align_absolute-center nds-show_small" style="max-width: 80%;">
+                     <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                     class="nds-pill__label nds-truncate nds-m-top_xxx-small"> Takes about 6 mins</div>
+                  </div>
+               </div>
+               </label>
+               <div c-wsvomniblockwithstep_wsvomniblockwithstep="" aria-hidden="false" aria-expanded="true"
+               class="nds-grid nds-size_1-of-1 nds-block_body" style="padding: 0px;">
+               <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                  style="display: flex; align-items: stretch; min-width: 48px;"></div>
+               <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-grid nds-size_11-of-12">
+                  <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-grid nds-wrap nds-grid_pull-padded marginLeft">
+                     <slot c-wsvomniblockwithstep_wsvomniblockwithstep="">
+                     <vlocity_ins-omniscript-text-block c-wsvpocos2english_wsvpocos2english_nds="" data-omni-key="PayIntro"
+                        class="nds-size_12-of-12 nds-medium-size_9-of-12">
+                        <slot>
+                           <div class="nds-form-element nds-form-container nds-text-block">
+                           <lightning-formatted-rich-text class="slds-rich-text-editor__output"><span>
+                                 <div>
+                                 <p>&nbsp;</p>
+                                 <p><span tabindex="0" style="color: #000000;">You are required to pay a fee when you submit an
+                                       application for a new license or license renewal. The fees are listed below.</span></p>
+                                 <p></p>
+                                 </div>
+                              </span></lightning-formatted-rich-text>
+                           </div>
+                        </slot>
+                     </vlocity_ins-omniscript-text-block>
+                     <vlocity_ins-omniscript-line-break c-wsvpocos2english_wsvpocos2english_nds="" data-omni-key="LineBreak10"
+                        class="nds-size_1-of-1">
+                        <slot>
+                           <div class="nds-size_1-of-1 nds-line_break" style="padding-bottom: 15px;"></div>
+                        </slot>
+                     </vlocity_ins-omniscript-line-break>
+                     <vlocity_ins-omniscript-text-block c-wsvpocos2english_wsvpocos2english_nds="" data-omni-key="FeeSummary"
+                        class="nds-size_12-of-12 nds-medium-size_12-of-12">
+                        <slot>
+                           <div class="nds-form-element nds-form-container nds-text-block">
+                           <lightning-formatted-rich-text class="slds-rich-text-editor__output"><span>
+                                 <div>
+                                 <div class="nds-text-body_regular"><span tabindex="0" style="color: #000000;"><strong>Fee
+                                       summary</strong></span></div>
+                                 <p>&nbsp;</p>
+                                 </div>
+                              </span></lightning-formatted-rich-text>
+                           </div>
+                        </slot>
+                     </vlocity_ins-omniscript-text-block>
+                     <vlocity_ins-omniscript-text-block c-wsvpocos2english_wsvpocos2english_nds=""
+                        data-omni-key="TextBlockLicenseFeeA" class="nds-size_12-of-12 nds-medium-size_3-of-12">
+                        <slot>
+                           <div class="nds-form-element nds-form-container nds-text-block">
+                           <lightning-formatted-rich-text class="slds-rich-text-editor__output"><span>
+                                 <div>
+                                 <div style="float: left;" class="nds-grid nds-p-right_large">
+                                    <div tabindex="0"
+                                       class="nds-border_top nds-p-top_medium nds-text-heading_large nds-border_top_wsvColor">
+                                       <h3>$893.00</h3>
+                                       <p><span style="color: #000000;">Fee for a class A license</span></p>
+                                    </div>
+                                 </div>
+                                 </div>
+                              </span></lightning-formatted-rich-text>
+                           </div>
+                        </slot>
+                     </vlocity_ins-omniscript-text-block>
+                     <vlocity_ins-omniscript-text-block c-wsvpocos2english_wsvpocos2english_nds=""
+                        data-omni-key="TextBlockLicenseFeeB" class="nds-size_12-of-12 nds-medium-size_3-of-12">
+                        <slot>
+                           <div class="nds-form-element nds-form-container nds-text-block">
+                           <lightning-formatted-rich-text class="slds-rich-text-editor__output"><span>
+                                 <div>
+                                 <div style="float: left;" class="nds-grid nds-p-right_large">
+                                    <div tabindex="0"
+                                       class="nds-border_top nds-p-top_medium nds-text-heading_large nds-border_top_wsvColor">
+                                       <h3>$777.50</h3>
+                                       <p><span style="color: #000000;">Fee for a class B license</span></p>
+                                    </div>
+                                 </div>
+                                 <p></p>
+                                 </div>
+                              </span></lightning-formatted-rich-text>
+                           </div>
+                        </slot>
+                     </vlocity_ins-omniscript-text-block>
+                     <vlocity_ins-omniscript-text-block c-wsvpocos2english_wsvpocos2english_nds=""
+                        data-omni-key="TextBlockLicenseTerm" class="nds-size_12-of-12 nds-medium-size_3-of-12">
+                        <slot>
+                           <div class="nds-form-element nds-form-container nds-text-block">
+                           <lightning-formatted-rich-text class="slds-rich-text-editor__output"><span>
+                                 <div>
+                                 <div style="float: left;" class="nds-grid nds-p-right_large">
+                                    <div tabindex="0"
+                                       class="nds-border_top nds-p-top_medium nds-text-heading_large nds-border_top_wsvColor">
+                                       <h3>5 years</h3>
+                                       <p><span style="color: #000000;">this license is valid for 5 years</span></p>
+                                    </div>
+                                 </div>
+                                 </div>
+                              </span></lightning-formatted-rich-text>
+                           </div>
+                        </slot>
+                     </vlocity_ins-omniscript-text-block>
+                     <vlocity_ins-omniscript-line-break c-wsvpocos2english_wsvpocos2english_nds="" data-omni-key="LineBreak5"
+                        class="nds-size_1-of-1">
+                        <slot>
+                           <div class="nds-size_1-of-1 nds-line_break" style="padding-bottom: 20px;"></div>
+                        </slot>
+                     </vlocity_ins-omniscript-line-break>
+                     <c-wsv-omniscript-set-values c-wsvpocos2english_wsvpocos2english_nds="" data-omni-key="PayButtonInactive"
+                        class="nds-size_12-of-12 nds-medium-size_4-of-12 nds-hide">
+                        <slot>
+                           <div class="nds-is-relative nds-p-around_x-small nds-m-bottom_x-small">
+                           <vlocity_ins-button><button type="button" disabled=""
+                                 class="vlocity-btn nds-button nds-button_neutral nds-button_stretch">Pay and submit
+                                 application</button></vlocity_ins-button>
+                           </div>
+                        </slot>
+                     </c-wsv-omniscript-set-values>
+                     <vlocity_ins-omniscript-set-values c-wsvpocos2english_wsvpocos2english_nds=""
+                        data-omni-key="PayButtonActive" class="nds-size_12-of-12 nds-medium-size_4-of-12">
+                        <slot>
+                           <div class="nds-is-relative nds-p-around_x-small nds-m-bottom_x-small">
+                           <c-button><button type="button"
+                                 class="vlocity-btn nds-button nds-button_brand nds-button_stretch">Pay and submit
+                                 application</button></c-button>
+                           </div>
+                        </slot>
+                     </vlocity_ins-omniscript-set-values>
+                     <vlocity_ins-omniscript-text-block c-wsvpocos2english_wsvpocos2english_nds="" data-omni-key="Note"
+                        class="nds-size_12-of-12 nds-medium-size_12-of-12">
+                        <slot>
+                           <div class="nds-form-element nds-form-container nds-text-block">
+                           <lightning-formatted-rich-text class="slds-rich-text-editor__output"><span>
+                                 <div>
+                                 <p><span tabindex="0" style="color: #999999;" class="nds-text-body_small">Note: you'll be
+                                       temporarily redirected to the Service Victoria website to pay online.</span></p>
+                                 </div>
+                              </span></lightning-formatted-rich-text>
+                           </div>
+                        </slot>
+                     </vlocity_ins-omniscript-text-block>
+                     <vlocity_ins-omniscript-line-break c-wsvpocos2english_wsvpocos2english_nds="" data-omni-key="LineBreak6"
+                        class="nds-size_1-of-1">
+                        <slot>
+                           <div class="nds-size_1-of-1 nds-line_break" style="padding-bottom: 30px;"></div>
+                        </slot>
+                     </vlocity_ins-omniscript-line-break>
+                     </slot>
+                  </div>
+               </div>
+               </div>
+            </div>
+         </div>
+         </div>
      `);
   }).add('WSV - Step Chart - Progress', () => {
    return withExample(`
