@@ -4977,7 +4977,494 @@ width: max-content;
          </div>
          </div>
      `);
-  }).add('WSV - Step Chart - Progress', () => {
+  }).add('WSV - OS - Block with Step - collapsed', ()=>{
+   return withExample(`
+   <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-size_1-of-1 wsv-step-block" style="padding-left: 0px;">
+      <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-p-left_small nds-p-right_small nds-block nds-clearfix">
+         <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-form-element__control nds-block_container"
+            style="display: block;"><label c-wsvomniblockwithstep_wsvomniblockwithstep="" role="button" tabindex="0"
+            class="nds-form-element__label nds-clearfix nds-m-bottom_none">
+            <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-grid nds-size_1-of-1"
+               style="position: relative;">
+               <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-show_small">
+                  <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                  class="stepOvalSize_default nds-text-heading_large stepOvalComplete" style="display: flex;">
+                  <div c-wsvomniblockwithstep_wsvomniblockwithstep="" aria-label="Step 1 completed;"
+                     class="nds-align_absolute-center">
+                     <vlocity_ins-icon c-wsvomniblockwithstep_wsvomniblockwithstep="" style="margin: auto;"><svg
+                        aria-hidden="true"
+                        class="nds-icon nds-button__icon nds-button__icon-left nds-align_absolute-center nds-icon-text-default nds-icon_small"
+                        style="fill: white;">
+                        <use
+                           xlink:href="/assets/icons/action-sprite/svg/symbols.svg#approval">
+                        </use>
+                        </svg><span class="nds-assistive-text">Toggle Content</span></vlocity_ins-icon>
+                  </div>
+                  </div>
+                  <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                  style="display: inline; align-items: stretch; min-width: 48px;">
+                  <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="stepRectangleComplete"></div>
+                  </div>
+               </div>
+               <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-hide_small">
+                  <div c-wsvomniblockwithstep_wsvomniblockwithstep="">
+                  <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-text-heading_large blockLabelTextClass"
+                     style="line-height: 25%; width: 48px;"> &nbsp;</div>
+                  <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="stepOvalSize_small stepOvalCompleteSmall">
+                  </div>
+                  <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-clearfix"
+                     style="width: 4px; margin: auto;">
+                     <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="stepRectangleComplete"
+                        style="position: absolute;"></div>
+                  </div>
+                  </div>
+               </div>
+               <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                  class="nds-form-element__label_toggle-text marginLeft marginVerticalHeader">
+                  <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-text-heading_large blockLabelTextClass"
+                  style="color: black;"><strong c-wsvomniblockwithstep_wsvomniblockwithstep="">Confirm your details</strong>
+                  </div>
+               </div>
+               <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-grid marginVerticalHeader"><img
+                  c-wsvomniblockwithstep_wsvomniblockwithstep="" src="/resource/1591333671000/WSVIcons/Images/edit.png"
+                  class="nds-align_absolute-center" style="margin: auto;"><button
+                  c-wsvomniblockwithstep_wsvomniblockwithstep="" aria-label="Edit" class="nds-button nds-p-left_none">
+                  <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                     class="nds-text-heading_small nds-p-left_x-small nds-truncate" style="color: black; margin: auto;">
+                     <strong c-wsvomniblockwithstep_wsvomniblockwithstep="">Edit</strong></div>
+                  </button></div>
+            </div>
+            </label>
+            <div c-wsvomniblockwithstep_wsvomniblockwithstep="" aria-hidden="false" aria-expanded="false"
+            class="nds-grid nds-size_1-of-1 nds-block_body" style="padding: 0px;">
+            <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+               style="display: flex; align-items: stretch; min-width: 48px;">
+               <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="stepRectangleComplete"></div>
+            </div>
+            <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-grid nds-size_11-of-12">
+               <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-grid nds-wrap nds-grid_pull-padded marginLeft">
+                  <slot c-wsvomniblockwithstep_wsvomniblockwithstep="">
+                  <vlocity_ins-omniscript-text-block c-wsvpocos2english_wsvpocos2english_nds="" data-omni-key="DetailsIntro"
+                     class="nds-size_12-of-12 nds-medium-size_8-of-12">
+                     <slot>
+                        <div class="nds-form-element nds-form-container nds-text-block">
+                        <lightning-formatted-rich-text class="slds-rich-text-editor__output"><span>
+                              <div>
+                              <p>&nbsp;</p>
+                              <div tabindex="0">
+                                 <p><span style="color: #000000;">We'll be using information from your WorkSafe Victoria
+                                    profile to complete your submission. Please check the details below are still
+                                    correct.</span></p>
+                                 <p><span style="color: #000000;">If you need to update anything, you can do so through your
+                                    WorkSafe profile.</span></p>
+                              </div>
+                              <p>&nbsp;</p>
+                              </div>
+                           </span></lightning-formatted-rich-text>
+                        </div>
+                     </slot>
+                  </vlocity_ins-omniscript-text-block>
+                  <vlocity_ins-omniscript-text-block c-wsvpocos2english_wsvpocos2english_nds="" data-omni-key="UserDetails"
+                     class="nds-size_12-of-12 nds-medium-size_8-of-12">
+                     <slot>
+                        <div class="nds-form-element nds-form-container nds-text-block">
+                        <lightning-formatted-rich-text class="slds-rich-text-editor__output"><span>
+                              <div>
+                              <div class="nds-size--1-of-1">
+                                 <div tabindex="0" style="border-radius: 12px; border: 4px solid #f2f2f2;"
+                                    class="nds-box nds-grow">
+                                    <p><span style="color: #000000;"><strong>Given name: </strong>Sarah</span></p>
+                                    <p><span style="color: #000000;"><strong>Family name: </strong>Johnson</span></p>
+                                    <p><span style="color: #000000;"><strong>Mobile: </strong>0478233334</span></p>
+                                    <p><span style="color: #000000;"><strong>Email: </strong><a
+                                          href="mailto:sarah.johnson@gmail.com">sarah.johnson@gmail.com</a></span></p>
+                                 </div>
+                              </div>
+                              </div>
+                           </span></lightning-formatted-rich-text>
+                        </div>
+                     </slot>
+                  </vlocity_ins-omniscript-text-block>
+                  <vlocity_ins-omniscript-line-break c-wsvpocos2english_wsvpocos2english_nds="" data-omni-key="LineBreak1"
+                     class="nds-size_1-of-1">
+                     <slot>
+                        <div class="nds-size_1-of-1 nds-line_break" style="padding-bottom: 25px;"></div>
+                     </slot>
+                  </vlocity_ins-omniscript-line-break>
+                  <vlocity_ins-omniscript-set-values c-wsvpocos2english_wsvpocos2english_nds=""
+                     data-omni-key="ConfirmButton" class="nds-size_12-of-12 nds-medium-size_2-of-12">
+                     <slot>
+                        <div class="nds-is-relative nds-p-around_x-small nds-m-bottom_x-small">
+                        <c-button><button type="button"
+                              class="vlocity-btn nds-button nds-button_brand nds-button_stretch">Confirm</button></c-button>
+                        </div>
+                     </slot>
+                  </vlocity_ins-omniscript-set-values>
+                  <c-wsv-omniscript-set-values c-wsvpocos2english_wsvpocos2english_nds="" data-omni-key="EditButton"
+                     class="nds-size_12-of-12 nds-medium-size_2-of-12">
+                     <slot>
+                        <div class="nds-is-relative nds-p-around_x-small nds-m-bottom_x-small">
+                        <vlocity_ins-button><button type="button"
+                              class="vlocity-btn nds-button nds-button_neutral nds-button_stretch">Edit</button>
+                        </vlocity_ins-button>
+                        </div>
+                     </slot>
+                  </c-wsv-omniscript-set-values>
+                  <vlocity_ins-omniscript-line-break c-wsvpocos2english_wsvpocos2english_nds="" data-omni-key="LineBreak2"
+                     class="nds-size_1-of-1">
+                     <slot>
+                        <div class="nds-size_1-of-1 nds-line_break" style="padding-bottom: 30px;"></div>
+                     </slot>
+                  </vlocity_ins-omniscript-line-break>
+                  </slot>
+               </div>
+            </div>
+            </div>
+            <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-grid nds-size_1-of-1 nds-block_body"
+            style="padding: 0px;">
+            <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+               style="display: flex; align-items: stretch; min-width: 48px; height: 24px;">
+               <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="stepRectangleComplete"></div>
+            </div>
+            </div>
+         </div>
+      </div>
+      </div>   
+    <!-- 2nd step -->
+    <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-size_1-of-1 wsv-step-block" style="padding-left: 0px;">
+       <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-p-left_small nds-p-right_small nds-block nds-clearfix">
+          <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-form-element__control nds-block_container"
+             style="display: block;"><label c-wsvomniblockwithstep_wsvomniblockwithstep="" role="button" tabindex="0"
+             class="nds-form-element__label nds-clearfix nds-m-bottom_none">
+             <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-grid nds-size_1-of-1"
+                style="position: relative;">
+                <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-show_small">
+                   <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                   class="stepOvalInactive stepOvalSize_default nds-text-heading_large" style="display: flex;"><span
+                      c-wsvomniblockwithstep_wsvomniblockwithstep="" aria-label="Step 2;" class="nds-align_absolute-center"
+                      style="color: black;"><strong c-wsvomniblockwithstep_wsvomniblockwithstep="">2</strong></span></div>
+                   <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                   style="display: inline; align-items: stretch; min-width: 48px;">
+                   <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="stepRectangleInactive"></div>
+                   </div>
+                </div>
+                <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-hide_small">
+                   <div c-wsvomniblockwithstep_wsvomniblockwithstep="">
+                   <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-text-heading_large blockLabelTextClass"
+                      style="line-height: 25%; width: 48px;"> &nbsp;</div>
+                   <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="stepOvalInactiveSmall stepOvalSize_small">
+                   </div>
+                   <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-clearfix"
+                      style="width: 4px; margin: auto;">
+                      <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="stepRectangleInactive"
+                         style="position: absolute;"></div>
+                   </div>
+                   </div>
+                </div>
+                <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                   class="nds-form-element__label_toggle-text marginLeft marginVerticalHeader">
+                   <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-text-heading_large blockLabelTextClass"
+                   style="color: black;"><strong c-wsvomniblockwithstep_wsvomniblockwithstep="">Application form</strong>
+                   </div>
+                   <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-p-top_small nds-hide_small">
+                   <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                      class="nds-pill pillsmall_wsv nds-align_absolute-center nds-m-left_none">
+                      <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                         class="nds-pill__label nds-truncate nds-m-top_xxx-small"> Takes about 10 mins</div>
+                   </div>
+                   </div>
+                </div>
+                <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                   class="nds-pill nds-pill_wsv nds-align_absolute-center nds-show_small" style="max-width: 80%;">
+                   <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                   class="nds-pill__label nds-truncate nds-m-top_xxx-small"> Takes about 10 mins</div>
+                </div>
+             </div>
+             </label>
+             <div c-wsvomniblockwithstep_wsvomniblockwithstep="" aria-hidden="false" aria-expanded="true"
+             class="nds-grid nds-size_1-of-1 nds-block_body" style="padding: 0px;">
+             <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                style="display: flex; align-items: stretch; min-width: 48px;">
+                <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="stepRectangleInactive"></div>
+             </div>
+             <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-grid nds-size_11-of-12">
+                <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-grid nds-wrap nds-grid_pull-padded marginLeft">
+                   <slot c-wsvomniblockwithstep_wsvomniblockwithstep="">
+                   <vlocity_ins-omniscript-text-block c-wsvpocos2english_wsvpocos2english_nds=""
+                      data-omni-key="ApplicationIntro" class="nds-size_12-of-12 nds-medium-size_12-of-12">
+                      <slot>
+                         <div class="nds-form-element nds-form-container nds-text-block">
+                         <lightning-formatted-rich-text class="slds-rich-text-editor__output"><span>
+                               <div>
+                               <p><span style="color: #000000;">&nbsp;</span></p>
+                               <div tabindex="0">
+                                  <p><span style="color: #000000;">Complete and submit the following form, providing all
+                                     required information and supporting documentation.</span></p>
+                               </div>
+                               <p>&nbsp;</p>
+                               </div>
+                            </span></lightning-formatted-rich-text>
+                         </div>
+                      </slot>
+                   </vlocity_ins-omniscript-text-block>
+                   <vlocity_ins-omniscript-text-block c-wsvpocos2english_wsvpocos2english_nds=""
+                      data-omni-key="WhatYouWillNeed" class="nds-size_12-of-12 nds-medium-size_12-of-12">
+                      <slot>
+                         <div class="nds-form-element nds-form-container nds-text-block">
+                         <lightning-formatted-rich-text class="slds-rich-text-editor__output"><span>
+                               <div>
+                               <p><span tabindex="0" style="color: #000000;">What you'll need:</span></p>
+                               <p>&nbsp;</p>
+                               <ul tabindex="0" style="color: #000000;">
+                                  <li><span style="color: #000000;">ABN / ACN and a company extract</span></li>
+                                  <li><span style="color: #000000;">Trust deed (only if you are applying for a trust)</span>
+                                  </li>
+                                  <li><span style="color: #000000;">OH&amp;S certificate (only if you require a Class A
+                                     license)</span></li>
+                                  <li><span style="color: #000000;">Site supervisor experience and training for the class type
+                                     you require</span></li>
+                               </ul>
+                               <p><span tabindex="0" style="color: #000000;">All fields are mandatory unless marked as
+                                     optional.</span></p>
+                               </div>
+                            </span></lightning-formatted-rich-text>
+                         </div>
+                      </slot>
+                   </vlocity_ins-omniscript-text-block>
+                   <vlocity_ins-omniscript-line-break c-wsvpocos2english_wsvpocos2english_nds="" data-omni-key="LineBreak3"
+                      class="nds-size_1-of-1">
+                      <slot>
+                         <div class="nds-size_1-of-1 nds-line_break" style="padding-bottom: 15px;"></div>
+                      </slot>
+                   </vlocity_ins-omniscript-line-break>
+                   <c-wsv-omniscript-set-values c-wsvpocos2english_wsvpocos2english_nds=""
+                      data-omni-key="StartFormButtonInactive" class="nds-size_12-of-12 nds-medium-size_2-of-12">
+                      <slot>
+                         <div class="nds-is-relative nds-p-around_x-small nds-m-bottom_x-small">
+                         <vlocity_ins-button><button type="button" disabled=""
+                               class="vlocity-btn nds-button nds-button_neutral nds-button_stretch">Start form</button>
+                         </vlocity_ins-button>
+                         </div>
+                      </slot>
+                   </c-wsv-omniscript-set-values>
+                   <vlocity_ins-omniscript-set-values c-wsvpocos2english_wsvpocos2english_nds=""
+                      data-omni-key="StartFormButtonActive" class="nds-size_12-of-12 nds-medium-size_2-of-12 nds-hide">
+                      <slot>
+                         <div class="nds-is-relative nds-p-around_x-small nds-m-bottom_x-small">
+                         <c-button><button type="button"
+                               class="vlocity-btn nds-button nds-button_brand nds-button_stretch">Start form</button>
+                         </c-button>
+                         </div>
+                      </slot>
+                   </vlocity_ins-omniscript-set-values>
+                   <vlocity_ins-omniscript-line-break c-wsvpocos2english_wsvpocos2english_nds="" data-omni-key="LineBreak4"
+                      class="nds-size_1-of-1">
+                      <slot>
+                         <div class="nds-size_1-of-1 nds-line_break" style="padding-bottom: 30px;"></div>
+                      </slot>
+                   </vlocity_ins-omniscript-line-break>
+                   </slot>
+                </div>
+             </div>
+             </div>
+          </div>
+       </div>
+    </div>
+    <!-- 3rd step -->
+    <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-size_1-of-1 wsv-step-block" style="padding-left: 0px;">
+       <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-p-left_small nds-p-right_small nds-block nds-clearfix">
+          <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-form-element__control nds-block_container"
+             style="display: block;"><label c-wsvomniblockwithstep_wsvomniblockwithstep="" role="button" tabindex="0"
+             class="nds-form-element__label nds-clearfix nds-m-bottom_none">
+             <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-grid nds-size_1-of-1"
+                style="position: relative;">
+                <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-show_small">
+                   <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                   class="stepOvalSize_default nds-text-heading_large stepOvalActive" style="display: flex;"><span
+                      c-wsvomniblockwithstep_wsvomniblockwithstep="" aria-label="Step 3;" class="nds-align_absolute-center"
+                      style="color: black;"><strong c-wsvomniblockwithstep_wsvomniblockwithstep="">3</strong></span></div>
+                   <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                   style="display: inline; align-items: stretch; min-width: 48px;"></div>
+                </div>
+                <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-hide_small">
+                   <div c-wsvomniblockwithstep_wsvomniblockwithstep="">
+                   <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-text-heading_large blockLabelTextClass"
+                      style="line-height: 25%; width: 48px;"> &nbsp;</div>
+                   <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="stepOvalSize_small stepOvalActiveSmall"></div>
+                   <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-clearfix"
+                      style="width: 4px; margin: auto;"></div>
+                   </div>
+                </div>
+                <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                   class="nds-form-element__label_toggle-text marginLeft marginVerticalHeader">
+                   <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-text-heading_large blockLabelTextClass"
+                   style="color: black;"><strong c-wsvomniblockwithstep_wsvomniblockwithstep="">Pay and submit</strong></div>
+                   <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-p-top_small nds-hide_small">
+                   <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                      class="nds-pill pillsmall_wsv nds-align_absolute-center nds-m-left_none">
+                      <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                         class="nds-pill__label nds-truncate nds-m-top_xxx-small"> Takes about 6 mins</div>
+                   </div>
+                   </div>
+                </div>
+                <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                   class="nds-pill nds-pill_wsv nds-align_absolute-center nds-show_small" style="max-width: 80%;">
+                   <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                   class="nds-pill__label nds-truncate nds-m-top_xxx-small"> Takes about 6 mins</div>
+                </div>
+             </div>
+             </label>
+             <div c-wsvomniblockwithstep_wsvomniblockwithstep="" aria-hidden="false" aria-expanded="true"
+             class="nds-grid nds-size_1-of-1 nds-block_body" style="padding: 0px;">
+             <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                style="display: flex; align-items: stretch; min-width: 48px;"></div>
+             <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-grid nds-size_11-of-12">
+                <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-grid nds-wrap nds-grid_pull-padded marginLeft">
+                   <slot c-wsvomniblockwithstep_wsvomniblockwithstep="">
+                   <vlocity_ins-omniscript-text-block c-wsvpocos2english_wsvpocos2english_nds="" data-omni-key="PayIntro"
+                      class="nds-size_12-of-12 nds-medium-size_9-of-12">
+                      <slot>
+                         <div class="nds-form-element nds-form-container nds-text-block">
+                         <lightning-formatted-rich-text class="slds-rich-text-editor__output"><span>
+                               <div>
+                               <p>&nbsp;</p>
+                               <p><span tabindex="0" style="color: #000000;">You are required to pay a fee when you submit an
+                                     application for a new license or license renewal. The fees are listed below.</span></p>
+                               <p></p>
+                               </div>
+                            </span></lightning-formatted-rich-text>
+                         </div>
+                      </slot>
+                   </vlocity_ins-omniscript-text-block>
+                   <vlocity_ins-omniscript-line-break c-wsvpocos2english_wsvpocos2english_nds="" data-omni-key="LineBreak10"
+                      class="nds-size_1-of-1">
+                      <slot>
+                         <div class="nds-size_1-of-1 nds-line_break" style="padding-bottom: 15px;"></div>
+                      </slot>
+                   </vlocity_ins-omniscript-line-break>
+                   <vlocity_ins-omniscript-text-block c-wsvpocos2english_wsvpocos2english_nds="" data-omni-key="FeeSummary"
+                      class="nds-size_12-of-12 nds-medium-size_12-of-12">
+                      <slot>
+                         <div class="nds-form-element nds-form-container nds-text-block">
+                         <lightning-formatted-rich-text class="slds-rich-text-editor__output"><span>
+                               <div>
+                               <div class="nds-text-body_regular"><span tabindex="0" style="color: #000000;"><strong>Fee
+                                     summary</strong></span></div>
+                               <p>&nbsp;</p>
+                               </div>
+                            </span></lightning-formatted-rich-text>
+                         </div>
+                      </slot>
+                   </vlocity_ins-omniscript-text-block>
+                   <vlocity_ins-omniscript-text-block c-wsvpocos2english_wsvpocos2english_nds=""
+                      data-omni-key="TextBlockLicenseFeeA" class="nds-size_12-of-12 nds-medium-size_3-of-12">
+                      <slot>
+                         <div class="nds-form-element nds-form-container nds-text-block">
+                         <lightning-formatted-rich-text class="slds-rich-text-editor__output"><span>
+                               <div>
+                               <div style="float: left;" class="nds-grid nds-p-right_large">
+                                  <div tabindex="0"
+                                     class="nds-border_top nds-p-top_medium nds-text-heading_large nds-border_top_wsvColor">
+                                     <h3>$893.00</h3>
+                                     <p><span style="color: #000000;">Fee for a class A license</span></p>
+                                  </div>
+                               </div>
+                               </div>
+                            </span></lightning-formatted-rich-text>
+                         </div>
+                      </slot>
+                   </vlocity_ins-omniscript-text-block>
+                   <vlocity_ins-omniscript-text-block c-wsvpocos2english_wsvpocos2english_nds=""
+                      data-omni-key="TextBlockLicenseFeeB" class="nds-size_12-of-12 nds-medium-size_3-of-12">
+                      <slot>
+                         <div class="nds-form-element nds-form-container nds-text-block">
+                         <lightning-formatted-rich-text class="slds-rich-text-editor__output"><span>
+                               <div>
+                               <div style="float: left;" class="nds-grid nds-p-right_large">
+                                  <div tabindex="0"
+                                     class="nds-border_top nds-p-top_medium nds-text-heading_large nds-border_top_wsvColor">
+                                     <h3>$777.50</h3>
+                                     <p><span style="color: #000000;">Fee for a class B license</span></p>
+                                  </div>
+                               </div>
+                               <p></p>
+                               </div>
+                            </span></lightning-formatted-rich-text>
+                         </div>
+                      </slot>
+                   </vlocity_ins-omniscript-text-block>
+                   <vlocity_ins-omniscript-text-block c-wsvpocos2english_wsvpocos2english_nds=""
+                      data-omni-key="TextBlockLicenseTerm" class="nds-size_12-of-12 nds-medium-size_3-of-12">
+                      <slot>
+                         <div class="nds-form-element nds-form-container nds-text-block">
+                         <lightning-formatted-rich-text class="slds-rich-text-editor__output"><span>
+                               <div>
+                               <div style="float: left;" class="nds-grid nds-p-right_large">
+                                  <div tabindex="0"
+                                     class="nds-border_top nds-p-top_medium nds-text-heading_large nds-border_top_wsvColor">
+                                     <h3>5 years</h3>
+                                     <p><span style="color: #000000;">this license is valid for 5 years</span></p>
+                                  </div>
+                               </div>
+                               </div>
+                            </span></lightning-formatted-rich-text>
+                         </div>
+                      </slot>
+                   </vlocity_ins-omniscript-text-block>
+                   <vlocity_ins-omniscript-line-break c-wsvpocos2english_wsvpocos2english_nds="" data-omni-key="LineBreak5"
+                      class="nds-size_1-of-1">
+                      <slot>
+                         <div class="nds-size_1-of-1 nds-line_break" style="padding-bottom: 20px;"></div>
+                      </slot>
+                   </vlocity_ins-omniscript-line-break>
+                   <c-wsv-omniscript-set-values c-wsvpocos2english_wsvpocos2english_nds="" data-omni-key="PayButtonInactive"
+                      class="nds-size_12-of-12 nds-medium-size_4-of-12 nds-hide">
+                      <slot>
+                         <div class="nds-is-relative nds-p-around_x-small nds-m-bottom_x-small">
+                         <vlocity_ins-button><button type="button" disabled=""
+                               class="vlocity-btn nds-button nds-button_neutral nds-button_stretch">Pay and submit
+                               application</button></vlocity_ins-button>
+                         </div>
+                      </slot>
+                   </c-wsv-omniscript-set-values>
+                   <vlocity_ins-omniscript-set-values c-wsvpocos2english_wsvpocos2english_nds=""
+                      data-omni-key="PayButtonActive" class="nds-size_12-of-12 nds-medium-size_4-of-12">
+                      <slot>
+                         <div class="nds-is-relative nds-p-around_x-small nds-m-bottom_x-small">
+                         <c-button><button type="button"
+                               class="vlocity-btn nds-button nds-button_brand nds-button_stretch">Pay and submit
+                               application</button></c-button>
+                         </div>
+                      </slot>
+                   </vlocity_ins-omniscript-set-values>
+                   <vlocity_ins-omniscript-text-block c-wsvpocos2english_wsvpocos2english_nds="" data-omni-key="Note"
+                      class="nds-size_12-of-12 nds-medium-size_12-of-12">
+                      <slot>
+                         <div class="nds-form-element nds-form-container nds-text-block">
+                         <lightning-formatted-rich-text class="slds-rich-text-editor__output"><span>
+                               <div>
+                               <p><span tabindex="0" style="color: #999999;" class="nds-text-body_small">Note: you'll be
+                                     temporarily redirected to the Service Victoria website to pay online.</span></p>
+                               </div>
+                            </span></lightning-formatted-rich-text>
+                         </div>
+                      </slot>
+                   </vlocity_ins-omniscript-text-block>
+                   <vlocity_ins-omniscript-line-break c-wsvpocos2english_wsvpocos2english_nds="" data-omni-key="LineBreak6"
+                      class="nds-size_1-of-1">
+                      <slot>
+                         <div class="nds-size_1-of-1 nds-line_break" style="padding-bottom: 30px;"></div>
+                      </slot>
+                   </vlocity_ins-omniscript-line-break>
+                   </slot>
+                </div>
+             </div>
+             </div>
+          </div>
+       </div>
+       </div>
+   `);
+}).add('WSV - Step Chart - Progress', () => {
    return withExample(`
    <div c-wsvomniscriptstepchart_wsvomniscriptstepchart=""
    class="nds-size_1-of-1 nds-small-size_1-of-1 nds-medium-size_1-of-1 nds-large-size_9-of-12 nds-align_absolute-center nds-grid nds-m-top_x-large">
