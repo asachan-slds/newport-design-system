@@ -4504,4 +4504,462 @@ width: max-content;
       <br />
       <vlocity_ins-omniscript-messaging c-wsvux_poc_draftenglish_wsvux_poc_draftenglish_nds="" data-omni-key="Messaging3" class="nds-size_12-of-12 nds-medium-size_8-of-12"><div role="status" class="nds-is-relative nds-scoped-notification nds-scoped-notification_form"><div class="nds-form-element__control nds-form-element__control-animated-label nds-grid"><div msg="Comment" class="nds-faux-animate"><span title="Comment" class="nds-icon_container nds-icon_container_circle nds-m-right_small"><c-icon><svg aria-hidden="true" class="nds-icon nds-icon-text-default nds-icon_small"><use xlink:href="#httpsworksafevicwsvvlocityvlocityinscs152visualforcecomresource1584139839000vlocityinsnewportassetsiconsutilityspritesvgsymbolssvg_chat"></use></svg><span class="nds-assistive-text"></span></c-icon></span><span>It is a requirement that your OH&amp;S certificate remains current and valid for the duration of your licence. Please be aware that if your certification expires you will no longer be able to operate under this licence. By providing your certification expiry date we will send you a reminder when an updated certificate is due.</span></div></div></div></vlocity_ins-omniscript-messaging>
    `);
-  });
+  }).add('WSV - OS - Block with Step', ()=>{
+     return withExample(`
+     <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-size_1-of-1 wsv-step-block" style="padding-left: 0px;">
+         <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-p-left_small nds-p-right_small nds-block nds-clearfix">
+            <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-form-element__control nds-block_container"
+               style="display: block;"><label c-wsvomniblockwithstep_wsvomniblockwithstep="" role="button" tabindex="0"
+               class="nds-form-element__label nds-clearfix nds-m-bottom_none">
+               <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-grid nds-size_1-of-1"
+                  style="position: relative;">
+                  <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-show_small">
+                     <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                     class="stepOvalActive stepOvalSize_default nds-text-heading_large" style="display: flex;"><span
+                        c-wsvomniblockwithstep_wsvomniblockwithstep="" aria-label="Step 1;" class="nds-align_absolute-center"
+                        style="color: black;"><strong c-wsvomniblockwithstep_wsvomniblockwithstep="">1</strong></span></div>
+                     <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                     style="display: inline; align-items: stretch; min-width: 48px;">
+                     <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="stepRectangleActive"></div>
+                     </div>
+                  </div>
+                  <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-hide_small">
+                     <div c-wsvomniblockwithstep_wsvomniblockwithstep="">
+                     <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-text-heading_large blockLabelTextClass"
+                        style="line-height: 25%; width: 48px;"> &nbsp;</div>
+                     <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="stepOvalActiveSmall stepOvalSize_small"></div>
+                     <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-clearfix"
+                        style="width: 4px; margin: auto;">
+                        <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="stepRectangleActive"
+                           style="position: absolute;"></div>
+                     </div>
+                     </div>
+                  </div>
+                  <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                     class="nds-form-element__label_toggle-text marginLeft marginVerticalHeader">
+                     <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-text-heading_large blockLabelTextClass"
+                     style="color: black;"><strong c-wsvomniblockwithstep_wsvomniblockwithstep="">Confirm your details</strong>
+                     </div>
+                     <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-p-top_small nds-hide_small">
+                     <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                        class="nds-pill pillsmall_wsv nds-align_absolute-center nds-m-left_none">
+                        <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                           class="nds-pill__label nds-truncate nds-m-top_xxx-small"> Takes about 4 mins</div>
+                     </div>
+                     </div>
+                  </div>
+                  <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                     class="nds-pill nds-pill_wsv nds-align_absolute-center nds-show_small" style="max-width: 80%;">
+                     <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                     class="nds-pill__label nds-truncate nds-m-top_xxx-small"> Takes about 4 mins</div>
+                  </div>
+               </div>
+               </label>
+               <div c-wsvomniblockwithstep_wsvomniblockwithstep="" aria-hidden="false" aria-expanded="true"
+               class="nds-grid nds-size_1-of-1 nds-block_body" style="padding: 0px;">
+               <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                  style="display: flex; align-items: stretch; min-width: 48px;">
+                  <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="stepRectangleActive"></div>
+               </div>
+               <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-grid nds-size_11-of-12">
+                  <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-grid nds-wrap nds-grid_pull-padded marginLeft">
+                     <slot c-wsvomniblockwithstep_wsvomniblockwithstep="">
+                     <vlocity_ins-omniscript-text-block c-wsvpocos2english_wsvpocos2english_nds="" data-omni-key="DetailsIntro"
+                        class="nds-size_12-of-12 nds-medium-size_8-of-12">
+                        <slot>
+                           <div class="nds-form-element nds-form-container nds-text-block">
+                           <lightning-formatted-rich-text class="slds-rich-text-editor__output"><span>
+                                 <div>
+                                 <p>&nbsp;</p>
+                                 <div tabindex="0">
+                                    <p><span style="color: #000000;">We'll be using information from your WorkSafe Victoria
+                                       profile to complete your submission. Please check the details below are still
+                                       correct.</span></p>
+                                    <p><span style="color: #000000;">If you need to update anything, you can do so through your
+                                       WorkSafe profile.</span></p>
+                                 </div>
+                                 <p>&nbsp;</p>
+                                 </div>
+                              </span></lightning-formatted-rich-text>
+                           </div>
+                        </slot>
+                     </vlocity_ins-omniscript-text-block>
+                     <vlocity_ins-omniscript-text-block c-wsvpocos2english_wsvpocos2english_nds="" data-omni-key="UserDetails"
+                        class="nds-size_12-of-12 nds-medium-size_8-of-12">
+                        <slot>
+                           <div class="nds-form-element nds-form-container nds-text-block">
+                           <lightning-formatted-rich-text class="slds-rich-text-editor__output"><span>
+                                 <div>
+                                 <div class="nds-size--1-of-1">
+                                    <div tabindex="0" style="border-radius: 12px; border: 4px solid #f2f2f2;"
+                                       class="nds-box nds-grow">
+                                       <p><span style="color: #000000;"><strong>Given name: </strong>Sarah</span></p>
+                                       <p><span style="color: #000000;"><strong>Family name: </strong>Johnson</span></p>
+                                       <p><span style="color: #000000;"><strong>Mobile: </strong>0478233334</span></p>
+                                       <p><span style="color: #000000;"><strong>Email: </strong><a
+                                             href="mailto:sarah.johnson@gmail.com">sarah.johnson@gmail.com</a></span></p>
+                                    </div>
+                                 </div>
+                                 </div>
+                              </span></lightning-formatted-rich-text>
+                           </div>
+                        </slot>
+                     </vlocity_ins-omniscript-text-block>
+                     <vlocity_ins-omniscript-line-break c-wsvpocos2english_wsvpocos2english_nds="" data-omni-key="LineBreak1"
+                        class="nds-size_1-of-1">
+                        <slot>
+                           <div class="nds-size_1-of-1 nds-line_break" style="padding-bottom: 25px;"></div>
+                        </slot>
+                     </vlocity_ins-omniscript-line-break>
+                     <vlocity_ins-omniscript-set-values c-wsvpocos2english_wsvpocos2english_nds=""
+                        data-omni-key="ConfirmButton" class="nds-size_12-of-12 nds-medium-size_2-of-12">
+                        <slot>
+                           <div class="nds-is-relative nds-p-around_x-small nds-m-bottom_x-small">
+                           <c-button><button type="button"
+                                 class="vlocity-btn nds-button nds-button_brand nds-button_stretch">Confirm</button></c-button>
+                           </div>
+                        </slot>
+                     </vlocity_ins-omniscript-set-values>
+                     <c-wsv-omniscript-set-values c-wsvpocos2english_wsvpocos2english_nds="" data-omni-key="EditButton"
+                        class="nds-size_12-of-12 nds-medium-size_2-of-12">
+                        <slot>
+                           <div class="nds-is-relative nds-p-around_x-small nds-m-bottom_x-small">
+                           <vlocity_ins-button><button type="button"
+                                 class="vlocity-btn nds-button nds-button_neutral nds-button_stretch">Edit</button>
+                           </vlocity_ins-button>
+                           </div>
+                        </slot>
+                     </c-wsv-omniscript-set-values>
+                     <vlocity_ins-omniscript-line-break c-wsvpocos2english_wsvpocos2english_nds="" data-omni-key="LineBreak2"
+                        class="nds-size_1-of-1">
+                        <slot>
+                           <div class="nds-size_1-of-1 nds-line_break" style="padding-bottom: 30px;"></div>
+                        </slot>
+                     </vlocity_ins-omniscript-line-break>
+                     </slot>
+                  </div>
+               </div>
+               </div>
+            </div>
+         </div>
+      </div>    
+      <!-- 2nd step -->
+      <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-size_1-of-1 wsv-step-block" style="padding-left: 0px;">
+         <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-p-left_small nds-p-right_small nds-block nds-clearfix">
+            <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-form-element__control nds-block_container"
+               style="display: block;"><label c-wsvomniblockwithstep_wsvomniblockwithstep="" role="button" tabindex="0"
+               class="nds-form-element__label nds-clearfix nds-m-bottom_none">
+               <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-grid nds-size_1-of-1"
+                  style="position: relative;">
+                  <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-show_small">
+                     <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                     class="stepOvalInactive stepOvalSize_default nds-text-heading_large" style="display: flex;"><span
+                        c-wsvomniblockwithstep_wsvomniblockwithstep="" aria-label="Step 2;" class="nds-align_absolute-center"
+                        style="color: black;"><strong c-wsvomniblockwithstep_wsvomniblockwithstep="">2</strong></span></div>
+                     <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                     style="display: inline; align-items: stretch; min-width: 48px;">
+                     <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="stepRectangleInactive"></div>
+                     </div>
+                  </div>
+                  <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-hide_small">
+                     <div c-wsvomniblockwithstep_wsvomniblockwithstep="">
+                     <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-text-heading_large blockLabelTextClass"
+                        style="line-height: 25%; width: 48px;"> &nbsp;</div>
+                     <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="stepOvalInactiveSmall stepOvalSize_small">
+                     </div>
+                     <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-clearfix"
+                        style="width: 4px; margin: auto;">
+                        <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="stepRectangleInactive"
+                           style="position: absolute;"></div>
+                     </div>
+                     </div>
+                  </div>
+                  <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                     class="nds-form-element__label_toggle-text marginLeft marginVerticalHeader">
+                     <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-text-heading_large blockLabelTextClass"
+                     style="color: black;"><strong c-wsvomniblockwithstep_wsvomniblockwithstep="">Application form</strong>
+                     </div>
+                     <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-p-top_small nds-hide_small">
+                     <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                        class="nds-pill pillsmall_wsv nds-align_absolute-center nds-m-left_none">
+                        <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                           class="nds-pill__label nds-truncate nds-m-top_xxx-small"> Takes about 10 mins</div>
+                     </div>
+                     </div>
+                  </div>
+                  <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                     class="nds-pill nds-pill_wsv nds-align_absolute-center nds-show_small" style="max-width: 80%;">
+                     <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                     class="nds-pill__label nds-truncate nds-m-top_xxx-small"> Takes about 10 mins</div>
+                  </div>
+               </div>
+               </label>
+               <div c-wsvomniblockwithstep_wsvomniblockwithstep="" aria-hidden="false" aria-expanded="true"
+               class="nds-grid nds-size_1-of-1 nds-block_body" style="padding: 0px;">
+               <div c-wsvomniblockwithstep_wsvomniblockwithstep=""
+                  style="display: flex; align-items: stretch; min-width: 48px;">
+                  <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="stepRectangleInactive"></div>
+               </div>
+               <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-grid nds-size_11-of-12">
+                  <div c-wsvomniblockwithstep_wsvomniblockwithstep="" class="nds-grid nds-wrap nds-grid_pull-padded marginLeft">
+                     <slot c-wsvomniblockwithstep_wsvomniblockwithstep="">
+                     <vlocity_ins-omniscript-text-block c-wsvpocos2english_wsvpocos2english_nds=""
+                        data-omni-key="ApplicationIntro" class="nds-size_12-of-12 nds-medium-size_12-of-12">
+                        <slot>
+                           <div class="nds-form-element nds-form-container nds-text-block">
+                           <lightning-formatted-rich-text class="slds-rich-text-editor__output"><span>
+                                 <div>
+                                 <p><span style="color: #000000;">&nbsp;</span></p>
+                                 <div tabindex="0">
+                                    <p><span style="color: #000000;">Complete and submit the following form, providing all
+                                       required information and supporting documentation.</span></p>
+                                 </div>
+                                 <p>&nbsp;</p>
+                                 </div>
+                              </span></lightning-formatted-rich-text>
+                           </div>
+                        </slot>
+                     </vlocity_ins-omniscript-text-block>
+                     <vlocity_ins-omniscript-text-block c-wsvpocos2english_wsvpocos2english_nds=""
+                        data-omni-key="WhatYouWillNeed" class="nds-size_12-of-12 nds-medium-size_12-of-12">
+                        <slot>
+                           <div class="nds-form-element nds-form-container nds-text-block">
+                           <lightning-formatted-rich-text class="slds-rich-text-editor__output"><span>
+                                 <div>
+                                 <p><span tabindex="0" style="color: #000000;">What you'll need:</span></p>
+                                 <p>&nbsp;</p>
+                                 <ul tabindex="0" style="color: #000000;">
+                                    <li><span style="color: #000000;">ABN / ACN and a company extract</span></li>
+                                    <li><span style="color: #000000;">Trust deed (only if you are applying for a trust)</span>
+                                    </li>
+                                    <li><span style="color: #000000;">OH&amp;S certificate (only if you require a Class A
+                                       license)</span></li>
+                                    <li><span style="color: #000000;">Site supervisor experience and training for the class type
+                                       you require</span></li>
+                                 </ul>
+                                 <p><span tabindex="0" style="color: #000000;">All fields are mandatory unless marked as
+                                       optional.</span></p>
+                                 </div>
+                              </span></lightning-formatted-rich-text>
+                           </div>
+                        </slot>
+                     </vlocity_ins-omniscript-text-block>
+                     <vlocity_ins-omniscript-line-break c-wsvpocos2english_wsvpocos2english_nds="" data-omni-key="LineBreak3"
+                        class="nds-size_1-of-1">
+                        <slot>
+                           <div class="nds-size_1-of-1 nds-line_break" style="padding-bottom: 15px;"></div>
+                        </slot>
+                     </vlocity_ins-omniscript-line-break>
+                     <c-wsv-omniscript-set-values c-wsvpocos2english_wsvpocos2english_nds=""
+                        data-omni-key="StartFormButtonInactive" class="nds-size_12-of-12 nds-medium-size_2-of-12">
+                        <slot>
+                           <div class="nds-is-relative nds-p-around_x-small nds-m-bottom_x-small">
+                           <vlocity_ins-button><button type="button" disabled=""
+                                 class="vlocity-btn nds-button nds-button_neutral nds-button_stretch">Start form</button>
+                           </vlocity_ins-button>
+                           </div>
+                        </slot>
+                     </c-wsv-omniscript-set-values>
+                     <vlocity_ins-omniscript-set-values c-wsvpocos2english_wsvpocos2english_nds=""
+                        data-omni-key="StartFormButtonActive" class="nds-size_12-of-12 nds-medium-size_2-of-12 nds-hide">
+                        <slot>
+                           <div class="nds-is-relative nds-p-around_x-small nds-m-bottom_x-small">
+                           <c-button><button type="button"
+                                 class="vlocity-btn nds-button nds-button_brand nds-button_stretch">Start form</button>
+                           </c-button>
+                           </div>
+                        </slot>
+                     </vlocity_ins-omniscript-set-values>
+                     <vlocity_ins-omniscript-line-break c-wsvpocos2english_wsvpocos2english_nds="" data-omni-key="LineBreak4"
+                        class="nds-size_1-of-1">
+                        <slot>
+                           <div class="nds-size_1-of-1 nds-line_break" style="padding-bottom: 30px;"></div>
+                        </slot>
+                     </vlocity_ins-omniscript-line-break>
+                     </slot>
+                  </div>
+               </div>
+               </div>
+            </div>
+         </div>
+      </div>
+     `);
+  }).add('WSV - Step Chart - Progress', () => {
+   return withExample(`
+   <div c-wsvomniscriptstepchart_wsvomniscriptstepchart=""
+   class="nds-size_1-of-1 nds-small-size_1-of-1 nds-medium-size_1-of-1 nds-large-size_9-of-12 nds-align_absolute-center nds-grid nds-m-top_x-large">
+   <div c-wsvomniscriptstepchart_wsvomniscriptstepchart="" class="nds-size_1-of-1">
+     <div c-wsvomniscriptstepchart_wsvomniscriptstepchart="" class="nds-path">
+       <ol c-wsvomniscriptstepchart_wsvomniscriptstepchart="" class="nds-path__nav wsv-nds-path__nav">
+         <c-wsv-omniscript-step-chart-items c-wsvomniscriptstepchart_wsvomniscriptstepchart=""
+           class="wsv-steps-container" c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems-host="">
+           <div c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="0"
+             class="step wsv-nds-is-active wsv-nds-is-current step-first">
+             <div c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="0" class="wsv-truncate"><span
+                 c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="0"
+                 class="wsv-number-circle">1</span><span c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems=""
+                 data-index="0" class="wsv-step-text" style="border-radius: 0.25rem 0rem 0rem 0.25rem;">Business
+                 details</span></div>
+           </div>
+         </c-wsv-omniscript-step-chart-items>
+         <c-wsv-omniscript-step-chart-items c-wsvomniscriptstepchart_wsvomniscriptstepchart=""
+           class="wsv-steps-container" c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems-host="">
+           <div c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="1" class="step">
+             <div c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="1" class="wsv-truncate"><span
+                 c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="1"
+                 class="wsv-number-circle">2</span><span c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems=""
+                 data-index="1" class="wsv-step-text" style="border-radius: 0.25rem 0rem 0rem 0.25rem;">Responsible
+                 Persons</span></div>
+           </div>
+         </c-wsv-omniscript-step-chart-items>
+         <c-wsv-omniscript-step-chart-items c-wsvomniscriptstepchart_wsvomniscriptstepchart=""
+           class="wsv-steps-container" c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems-host="">
+           <div c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="2" class="step">
+             <div c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="2" class="wsv-truncate"><span
+                 c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="2"
+                 class="wsv-number-circle">3</span><span c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems=""
+                 data-index="2" class="wsv-step-text" style="border-radius: 0.25rem 0rem 0rem 0.25rem;">Licence
+                 type</span></div>
+           </div>
+         </c-wsv-omniscript-step-chart-items>
+         <c-wsv-omniscript-step-chart-items c-wsvomniscriptstepchart_wsvomniscriptstepchart=""
+           class="wsv-steps-container" c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems-host="">
+           <div c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="3" class="step step-last">
+             <div c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="3" class="wsv-truncate"><span
+                 c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="3"
+                 class="wsv-number-circle">4</span><span c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems=""
+                 data-index="3" class="wsv-step-text"
+                 style="border-radius: 0.25rem 0rem 0rem 0.25rem;">Declaration</span></div>
+           </div>
+         </c-wsv-omniscript-step-chart-items>
+       </ol>
+     </div>
+   </div><br c-wsvomniscriptstepchart_wsvomniscriptstepchart="">
+ </div>
+   `);
+ }).add('WSV - Step Chart - Progress: Completed', () => {
+   return withExample(`
+   <div c-wsvomniscriptstepchart_wsvomniscriptstepchart=""
+   class="nds-size_1-of-1 nds-small-size_1-of-1 nds-medium-size_1-of-1 nds-large-size_9-of-12 nds-align_absolute-center nds-grid nds-m-top_x-large">
+   <div c-wsvomniscriptstepchart_wsvomniscriptstepchart="" class="nds-size_1-of-1">
+     <div c-wsvomniscriptstepchart_wsvomniscriptstepchart="" class="nds-path">
+       <ol c-wsvomniscriptstepchart_wsvomniscriptstepchart="" class="nds-path__nav wsv-nds-path__nav">
+         <c-wsv-omniscript-step-chart-items c-wsvomniscriptstepchart_wsvomniscriptstepchart=""
+           class="wsv-steps-container" c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems-host="">
+           <div c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="0"
+             class="step wsv-nds-is-completed step-first">
+             <div c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="0" class="wsv-truncate"><span
+                 c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="0"
+                 class="wsv-number-circle"><svg c-wsvOmniscriptStepChartItems_wsvOmniscriptStepChartItems=""
+                   data-index="0" aria-hidden="true" class="nds-button__icon slds-current-color wsv-svg-icon">
+                   <use c-wsvOmniscriptStepChartItems_wsvOmniscriptStepChartItems="" data-index="0"
+                     xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#check"></use>
+                 </svg></span><span c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="0"
+                 class="wsv-step-text" style="border-radius: 0.25rem 0rem 0rem 0.25rem;">Business details</span></div>
+           </div>
+         </c-wsv-omniscript-step-chart-items>
+         <c-wsv-omniscript-step-chart-items c-wsvomniscriptstepchart_wsvomniscriptstepchart=""
+           class="wsv-steps-container" c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems-host="">
+           <div c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="1"
+             class="step wsv-nds-is-active wsv-nds-is-current">
+             <div c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="1" class="wsv-truncate"><span
+                 c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="1"
+                 class="wsv-number-circle">2</span><span c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems=""
+                 data-index="1" class="wsv-step-text" style="border-radius: 0.25rem 0rem 0rem 0.25rem;">Responsible
+                 Persons</span></div>
+           </div>
+         </c-wsv-omniscript-step-chart-items>
+         <c-wsv-omniscript-step-chart-items c-wsvomniscriptstepchart_wsvomniscriptstepchart=""
+           class="wsv-steps-container" c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems-host="">
+           <div c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="2" class="step">
+             <div c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="2" class="wsv-truncate"><span
+                 c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="2"
+                 class="wsv-number-circle">3</span><span c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems=""
+                 data-index="2" class="wsv-step-text" style="border-radius: 0.25rem 0rem 0rem 0.25rem;">Licence
+                 type</span></div>
+           </div>
+         </c-wsv-omniscript-step-chart-items>
+         <c-wsv-omniscript-step-chart-items c-wsvomniscriptstepchart_wsvomniscriptstepchart=""
+           class="wsv-steps-container" c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems-host="">
+           <div c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="3" class="step step-last">
+             <div c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="3" class="wsv-truncate"><span
+                 c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="3"
+                 class="wsv-number-circle">4</span><span c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems=""
+                 data-index="3" class="wsv-step-text"
+                 style="border-radius: 0.25rem 0rem 0rem 0.25rem;">Declaration</span></div>
+           </div>
+         </c-wsv-omniscript-step-chart-items>
+       </ol>
+     </div>
+   </div><br c-wsvomniscriptstepchart_wsvomniscriptstepchart="">
+ </div>
+   `);
+ }).add('WSV - Step Chart - Print/Save and Resume', () => {
+   return withExample(`
+   <div style="height:250px;">
+     <div c-wsvomniscriptstepchart_wsvomniscriptstepchart=""
+     class="nds-size_1-of-1 nds-small-size_1-of-1 nds-medium-size_1-of-1 nds-large-size_9-of-12 nds-align_absolute-center nds-grid nds-m-top_x-large">
+     <div c-wsvomniscriptstepchart_wsvomniscriptstepchart="" class="nds-size_1-of-1">
+       <div c-wsvomniscriptstepchart_wsvomniscriptstepchart="" class="nds-path">
+         <ol c-wsvomniscriptstepchart_wsvomniscriptstepchart="" class="nds-path__nav wsv-nds-path__nav">
+           <c-wsv-omniscript-step-chart-items c-wsvomniscriptstepchart_wsvomniscriptstepchart=""
+             class="wsv-steps-container" c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems-host="">
+             <div c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="0"
+               class="step wsv-nds-is-completed step-first">
+               <div c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="0" class="wsv-truncate"><span
+                   c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="0"
+                   class="wsv-number-circle"><svg c-wsvOmniscriptStepChartItems_wsvOmniscriptStepChartItems=""
+                     data-index="0" aria-hidden="true" class="nds-button__icon slds-current-color wsv-svg-icon">
+                     <use c-wsvOmniscriptStepChartItems_wsvOmniscriptStepChartItems="" data-index="0"
+                       xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#check"></use>
+                   </svg></span><span c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="0"
+                   class="wsv-step-text" style="border-radius: 0.25rem 0rem 0rem 0.25rem;">Business details</span></div>
+             </div>
+           </c-wsv-omniscript-step-chart-items>
+           <c-wsv-omniscript-step-chart-items c-wsvomniscriptstepchart_wsvomniscriptstepchart=""
+             class="wsv-steps-container" c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems-host="">
+             <div c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="1"
+               class="step wsv-nds-is-active wsv-nds-is-current">
+               <div c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="1" class="wsv-truncate"><span
+                   c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="1"
+                   class="wsv-number-circle">2</span><span c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems=""
+                   data-index="1" class="wsv-step-text" style="border-radius: 0.25rem 0rem 0rem 0.25rem;">Responsible
+                   Persons</span></div>
+             </div>
+           </c-wsv-omniscript-step-chart-items>
+           <c-wsv-omniscript-step-chart-items c-wsvomniscriptstepchart_wsvomniscriptstepchart=""
+             class="wsv-steps-container" c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems-host="">
+             <div c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="2" class="step">
+               <div c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="2" class="wsv-truncate"><span
+                   c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="2"
+                   class="wsv-number-circle">3</span><span c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems=""
+                   data-index="2" class="wsv-step-text" style="border-radius: 0.25rem 0rem 0rem 0.25rem;">Licence
+                   type</span></div>
+             </div>
+           </c-wsv-omniscript-step-chart-items>
+           <c-wsv-omniscript-step-chart-items c-wsvomniscriptstepchart_wsvomniscriptstepchart=""
+             class="wsv-steps-container" c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems-host="">
+             <div c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="3" class="step step-last">
+               <div c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="3" class="wsv-truncate"><span
+                   c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems="" data-index="3"
+                   class="wsv-number-circle">4</span><span c-wsvomniscriptstepchartitems_wsvomniscriptstepchartitems=""
+                   data-index="3" class="wsv-step-text"
+                   style="border-radius: 0.25rem 0rem 0rem 0.25rem;">Declaration</span></div>
+             </div>
+           </c-wsv-omniscript-step-chart-items>
+         </ol>
+       </div>
+     </div><br c-wsvomniscriptstepchart_wsvomniscriptstepchart="">
+   </div>
+   <div c-wsvomniscriptstepchart_wsvomniscriptstepchart="" style="position:relative;"
+   class="nds-size_1-of-1 nds-small-size_1-of-1 nds-medium-size_1-of-1 nds-large-size_9-of-12 nds-align_absolute-center wsv-grid nds-m-top_x-large nds-grid_align-center">
+   <div c-wsvomniscriptstepchart_wsvomniscriptstepchart="" class="nds-wrap wsv-stepchart-btn-container"  style="left: 850px;"><button
+       c-wsvomniscriptstepchart_wsvomniscriptstepchart="" type="button"
+       class="vlocity-btn nds-button nds-size_1-of-1 nds-button_neutral wsv-btn-stepchart wsv-btn-print">Print</button><button
+       c-wsvomniscriptstepchart_wsvomniscriptstepchart="" type="button"
+       class="vlocity-btn nds-button nds-size_1-of-1 nds-button_neutral wsv-btn-stepchart wsv-btn-save">Save &amp; resume
+       later</button></div>
+   </div>
+ </div>
+   `);
+ });

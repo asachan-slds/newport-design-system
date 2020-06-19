@@ -1,0 +1,132 @@
+.wsv-step-block {
+	.stepOvalComplete {
+		border-radius: 50%;
+		background-color: #477b4c;
+	}
+
+	.stepOvalActive {
+		border-radius: 50%;
+		border: solid 4px #fdb813;
+	}
+
+	.stepOvalInactive {
+		border-radius: 50%;
+		border: solid 4px #000000;
+	}
+
+	.stepOvalSize_default {
+		width: 48px;
+		height: 48px;
+	}
+
+	.stepOvalCompleteSmall {
+		border-radius: 50%;
+		background-color: #477b4c;
+		margin: 0 auto;
+		border: 4px solid white;
+	}
+
+	.stepOvalActiveSmall {
+		border-radius: 50%;
+		background-color: #fdb813;
+		margin: 0 auto;
+		border: 4px solid white;
+	}
+
+	.stepOvalInactiveSmall {
+		border-radius: 50%;
+		background-color: #000000;
+		margin: 0 auto;
+		border: 4px solid white;
+	}
+
+	.stepOvalSize_small {
+		width: 18px;
+		height: 18px;
+	}
+
+	.stepRectangleActive {
+		width: 4px;
+		height: 100%;
+		margin: 0 auto;
+		background-color: #fdb813;
+	}
+
+	.stepRectangleComplete {
+		width: 4px;
+		height: 100%;
+		margin: 0 auto;
+		background-color: #477b4c;
+	}
+
+	.stepRectangleInactive {
+		width: 4px;
+		height: 100%;
+		margin: 0 auto;
+		background-color: #dddbda;
+	}
+
+	.pillsmall_wsv {
+		border-radius: 19px;
+		background-color: rgba(0, 0, 0, .05);
+		color: #545454;
+		padding: 0 13px;
+		margin: auto;
+		height: 24px;
+		font-size: 14px;
+		width: fit-content;
+		line-height: 20px;
+	}
+
+	.nds-m-top_auto {
+		margin-top: auto;
+	}
+
+	.nds-m-bottom_auto {
+		margin-bottom: auto;
+	}
+
+	@media screen and (min-width: 640px) {
+		.blockLabelTextClass {
+			font-size: 28px;
+		}
+
+		.marginVerticalHeader {
+			margin-top: auto;
+			margin-bottom: auto;
+		}
+
+		.marginLeft {
+			margin-left: 30px;
+		}
+	}
+
+	@media screen and (max-width: 640px) and (min-width: 480px) {
+		.blockLabelTextClass {
+			font-size: 22px;
+		}
+
+		.marginVerticalHeader {
+			margin-top: auto;
+			margin-bottom: auto;
+		}
+
+		.marginLeft {
+			margin-left: 13px;
+		}
+	}
+
+	@media screen and (max-width: 480px) {
+		.blockLabelTextClass {
+			font-size: 17px;
+		}
+
+		.marginVerticalHeader {
+			margin-bottom: auto;
+		}
+
+		.marginLeft {
+			margin-left: 0px;
+		}
+	}
+}
