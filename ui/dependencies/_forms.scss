@@ -3,24 +3,24 @@
 
 @mixin form-input-container {
   background-color: $color-background-input;
-  border: 0;
-  border-bottom: $border-width-thin solid $color-border-input;
-  border-radius: 0;
+  border: $border-width-thin solid $color-border-input;
+  color: $newport-black-primary;
+  border-radius: 12px;
   width: 100%;
 }
 
 @mixin form-input-focus {
   outline: 0;
-  border-color: $color-border-input-active;
+  border-color: $input-color-border-primary;
   background-color: $color-background-input-active;
-  box-shadow: none;
+  box-shadow: $shadow-selected-focus;
 }
 
 @mixin form-input-disabled {
-  background-color: $color-border-tab-active;
+  background-color: $color-background-input-disabled;
   border-color: $color-border-input-disabled;
   cursor: not-allowed;
-  opacity: 0.5;
+  //opacity: $opacity-5;
   user-select: none;
 
   &:focus,

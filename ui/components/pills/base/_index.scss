@@ -74,6 +74,16 @@
     }
   }
 
+  &_wsv {
+    border-radius: $border-radius-step-pill;
+    background-color: $black-transparent-05;
+    color: $color-background-badge;
+    padding: 0px 25px;
+    margin: auto;
+    height: 32px;
+    font-size: $font-size-text-sm-md;
+  }
+
   /**
    * Container to hold pill(s) with borders
    *

@@ -15,7 +15,7 @@
   // Deprecated, use .form-element__label instead
   &__helper {
     @include deprecate('4.0.0') {
-      font-size: $font-size-small;
+      font-size: $font-size-text-x-small;
     }
   }
 
@@ -29,7 +29,8 @@
     display: inline-block;
     color: $color-text-label;
     font-size: $form-label-font-size;
-    font-weight: $form-label-font-weight;
+    font-weight: $form-label-font-weight-normal;
+    font-family: $font-family;
     line-height: $line-height-text;
     margin-#{$right}: $spacing-small;
     margin-bottom: $spacing-xxx-small;
