@@ -23,6 +23,16 @@
   border-radius: $border-radius-medium;
   background-clip: padding-box;
   box-shadow: $card-shadow;
+  /**
+  fix for font overwriting
+  */
+  font-family: $font-family;
+  * {
+    /**
+  fix for font overwriting
+  */
+    font-family: $font-family;
+  }
 
   // Adds spacing between cards
   + .nds-card {
@@ -79,8 +89,10 @@
     border-top: $border-width-thin solid $card-footer-color-border;
   }
 
-  @include deprecate('4.0.0', 'Use a text-align--center utility class instead') {
-
+  @include deprecate(
+    "4.0.0",
+    "Use a text-align--center utility class instead"
+  ) {
     .nds-card_empty .nds-card__body,
     .nds-card--empty .nds-card__body {
       text-align: center;
@@ -98,4 +110,4 @@
   margin-top: $spacing-x-small;
 }
 
-@import 'blame';
+@import "blame";

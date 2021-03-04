@@ -1,0 +1,427 @@
+.wsv-step-block {
+	.stepOvalComplete {
+		border-radius: 50%;
+		background-color: #477b4c;
+	}
+
+	.stepOvalActive {
+		border-radius: 50%;
+		border: solid 4px #fdb813;
+	}
+
+	.stepOvalInactive {
+		border-radius: 50%;
+		border: solid 4px #000000;
+	}
+
+	.stepOvalSize_default {
+		width: 48px;
+		height: 48px;
+	}
+
+	.stepOvalCompleteSmall {
+		border-radius: 50%;
+		background-color: #477b4c;
+		margin: 0 auto;
+		border: 4px solid white;
+	}
+
+	.stepOvalActiveSmall {
+		border-radius: 50%;
+		background-color: #fdb813;
+		margin: 0 auto;
+		border: 4px solid white;
+	}
+
+	.stepOvalInactiveSmall {
+		border-radius: 50%;
+		background-color: #000000;
+		margin: 0 auto;
+		border: 4px solid white;
+	}
+
+	.stepOvalSize_small {
+		width: 18px;
+		height: 18px;
+	}
+
+	.stepRectangleActive {
+		width: 4px;
+		height: 100%;
+		margin: 0 auto;
+		background-color: #fdb813;
+	}
+
+	.stepRectangleComplete {
+		width: 4px;
+		height: 100%;
+		margin: 0 auto;
+		background-color: #477b4c;
+	}
+
+	.stepRectangleInactive {
+		width: 4px;
+		height: 100%;
+		margin: 0 auto;
+		background-color: #dddbda;
+	}
+
+	.pillsmall_wsv {
+		border-radius: 19px;
+		background-color: rgba(0, 0, 0, .05);
+		color: #545454;
+		padding: 0 13px;
+		margin: auto;
+		height: 24px;
+		font-size: 14px;
+		width: fit-content;
+		line-height: 20px;
+	}
+
+	.nds-m-top_auto {
+		margin-top: auto;
+	}
+
+	.nds-m-bottom_auto {
+		margin-bottom: auto;
+	}
+
+	@media screen and (min-width: 640px) {
+		.blockLabelTextClass {
+			font-size: 28px;
+		}
+
+		.marginVerticalHeader {
+			margin-top: auto;
+			margin-bottom: auto;
+		}
+
+		.marginLeft {
+			margin-left: 30px;
+		}
+	}
+
+	@media screen and (max-width: 640px) and (min-width: 480px) {
+		.blockLabelTextClass {
+			font-size: 22px;
+		}
+
+		.marginVerticalHeader {
+			margin-top: auto;
+			margin-bottom: auto;
+		}
+
+		.marginLeft {
+			margin-left: 13px;
+		}
+	}
+
+	@media screen and (max-width: 480px) {
+		.blockLabelTextClass {
+			font-size: 17px;
+		}
+
+		.marginVerticalHeader {
+			margin-bottom: auto;
+		}
+
+		.marginLeft {
+			margin-left: 0px;
+		}
+	}
+}
+
+//custom stepchart classes, just put them under the class to
+.nds-path {
+	.nds-path__nav.wsv-nds-path__nav {
+		.omni-stepchart-heading {
+			font-size: 1.125rem;
+			font-weight: 400;
+		}
+
+		.wsv-steps-container {
+			/* autoprefixer: off */
+			width: -webkit-fill-available;
+		}
+
+		@media (max-width: 48em) {
+			.via-nds .nds-small-size_1-of-1 {
+				width: 100%;
+				-ms-flex: 0 0 100%;
+				flex: 0 0 100%;
+				max-width: 100%;
+			}
+		}
+
+		// WSV custom lwc stepchart items
+		.step {
+			font-size: 14px;
+			text-align: center;
+			color: $step-font-color;
+			cursor: default;
+			margin: 0 3px;
+			/* padding: 10px 30px 5px 30px; */
+			padding: 8px 0 8px 24px;
+			float: left;
+			justify-content: center;
+			text-align: center;
+			text-align: -webkit-center;
+			position: relative;
+			background-color: $step-border-color;
+			user-select: none;
+			width: -webkit-fill-available;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+
+		/* Adding before and after to step element */
+		.step:after,
+		.step:before {
+			content: " ";
+			position: absolute;
+			top: 0;
+			right: -24px;
+			width: 0;
+			height: 0;
+			/* border-top: 19px solid transparent;
+        border-bottom: 19px solid transparent; */
+			border-top: 24px solid transparent;
+			border-bottom: 24px solid transparent;
+			/* border-left: 17px solid $step-border-color;	 */
+			border-left: 24px solid $step-border-color;
+
+			z-index: 2;
+		}
+		.step:before {
+			right: auto;
+			left: 0;
+			border-left: 24px solid $white;
+			z-index: 0;
+		}
+
+		/* Border radius for first and Last step */
+		.step-first {
+			border-top-left-radius: 12px;
+			border-bottom-left-radius: 12px;
+		}
+		.step-last {
+			border-top-right-radius: 12px;
+			border-bottom-right-radius: 12px;
+		}
+
+		/* Ignoring before and after from first and last step element */
+		.step.step-last:after,
+		.step.wsv-nds-is-completed.step-first:before,
+		.step.wsv-nds-is-completed.step-last:after,
+		.step.wsv-nds-is-nonpristine.step-last:after,
+		.step.wsv-nds-is-active.wsv-nds-is-current.step-first:before,
+		.step.wsv-nds-is-active.wsv-nds-is-current.step-last:after {
+			border-left: 0px;
+		}
+
+		.wsv-step-text {
+			color: inherit;
+			font-family: $arial-helvetica;
+			font-size: 15px;
+			line-height: 28px;
+			font-weight: bold;
+			background: transparent;
+			position: relative;
+			top: -1px;
+		}
+
+		.wsv-number-circle {
+			color: inherit;
+			font-family: $arial-helvetica;
+			font-size: 17px;
+			line-height: 28px;
+			border-radius: 50%;
+			border: 3px solid #000000;
+			display: inline-block;
+			font-weight: bold;
+			margin-right: 5px;
+			text-align: center;
+			line-height: 1.7;
+			width: 32px;
+			height: 32px;
+			border-color: inherit;
+		}
+
+		/* ----------------------- Step: current/actve ----------------------- */
+		/* Background color on current/actve step */
+		.step.wsv-nds-is-current,
+		.wsv-number-circle .wsv-number-circle {
+			color: #000;
+			background-color: $step-number-circle-background;
+		}
+		.step.wsv-nds-is-current:after {
+			border-left: 24px solid $step-current-step-after-border-color;
+		}
+		/* Hover on current/actve step */
+		.step.wsv-nds-is-current:hover {
+			background: $step-current-step-background-color;
+		}
+		.step.wsv-nds-is-current:hover:after {
+			border-left: 24px solid $step-current-step-after-border-color;
+		}
+
+		/* ----------------------- Step: complete ----------------------- */
+		/* Background color on complete step */
+		.step.wsv-nds-is-completed {
+			color: $white;
+			background-color: $newport-color-hippie-green;
+			cursor: pointer;
+		}
+		.step.wsv-nds-is-completed:after {
+			border-left: 24px solid $newport-color-hippie-green;
+		}
+		/* Hover on complete step */
+		.step.wsv-nds-is-completed:hover {
+			background: $step-background-color-completed;
+		}
+		.step.wsv-nds-is-completed:hover:after {
+			border-left: 24px solid $step-border-color-completed-after-hover;
+		}
+
+		/* ----------------------- Step: non-pristine ----------------------- */
+		/* Background color on non-pristine step */
+		.step.wsv-nds-is-nonpristine {
+			color: $step-font-color;
+			background-color: $step-border-color;
+		}
+		.step.wsv-nds-is-nonpristine:after {
+			border-left: 24px solid $step-border-color;
+		}
+
+		/* Change the svg color */
+		svg.nds-button__icon.wsv-svg-icon {
+			stroke: $white;
+			stroke-width: 4px;
+			padding-bottom: 2px;
+		}
+
+		.wsv-truncate {
+			max-width: 170px;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+
+		/* Remove step text on lower screen size */
+		@media (max-width: 36em) {
+			.step {
+				padding: 8px 0px 8px 24px;
+			}
+			.step-first {
+				padding: 8px 0 8px 16px;
+			}
+			.step-last,
+			.step-last:hover {
+				margin-right: -16px;
+			}
+			.wsv-step-text {
+				display: none;
+			}
+			.step:before,
+			.step:after {
+				right: -22px;
+				border-top: 22px solid transparent;
+				border-bottom: 22px solid transparent;
+				border-left: 22px solid $step-border-color;
+			}
+			.step:before {
+				border-left: 22px solid $white;
+			}
+			.wsv-number-circle {
+				width: 28px;
+				height: 28px;
+			}
+			.step.wsv-nds-is-nonpristine:after {
+				border-left: 22px solid $step-border-color;
+			}
+			.step.wsv-nds-is-nonpristine:after {
+				border-left: 22px solid $step-border-color;
+			}
+			.step.wsv-nds-is-completed:hover:after {
+				border-left: 22px solid $step-border-color-completed-after-hover;
+			}
+			.step.wsv-nds-is-completed:after {
+				border-left: 22px solid $newport-color-hippie-green;
+			}
+			.step.wsv-nds-is-current:hover:after {
+				border-left: 22px solid $step-current-step-after-border-color;
+			}
+			.step.wsv-nds-is-current:after {
+				border-left: 22px solid $step-current-step-after-border-color;
+			}
+			svg.nds-button__icon.wsv-svg-icon {
+				padding-bottom: 3px;
+			}
+			.wsv-number-circle {
+				font-size: 16px;
+				line-height: 1.5;
+			}
+		}
+
+		@media (max-width: 56em) and (min-width: 36em) {
+			.wsv-step-text {
+				display: none;
+			}
+			.step:hover {
+				min-width: -webkit-fill-available;
+			}
+			.step-first {
+				padding: 8px 0 8px 16px;
+			}
+			/* .step-last,
+        .step-last:hover {
+            margin-right: -16px
+        } */
+			.step:hover .wsv-step-text,
+			.wsv-step-text:hover {
+				display: inline;
+			}
+			.wsv-truncate {
+				max-width: -webkit-fill-available;
+			}
+
+			.step-last,
+			.step-last:hover {
+				padding-right: 10px;
+			}
+		}
+	}
+}
+.wsv-grid {
+	.wsv-stepchart-btn-container {
+		.wsv-btn-stepchart {
+			border: 0;
+			padding: 0.01rem 0;
+			box-shadow: 0 1px 6px -1px $btn-step-chart-box-shadow;
+			height: 40px;
+		}
+
+		.wsv-btn-print {
+			width: 76px;
+			margin-right: 0.5rem;
+		}
+		.wsv-btn-save {
+			width: 174px;
+		}
+
+		@media (max-width: 48em) {
+			.wsv-stepchart-btn-container {
+				position: relative;
+				margin-top: 0rem;
+			}
+		}
+
+		position: absolute;
+		margin-top: 6rem;
+		padding-right: 1rem;
+	}
+
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}

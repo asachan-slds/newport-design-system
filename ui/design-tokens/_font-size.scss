@@ -60,6 +60,13 @@ $letter-spacing-md: $letter-spacing-2 !default;
 $letter-spacing-lg: $letter-spacing-3 !default;
 $letter-spacing-normal: $letter-spacing-4 !default;
 
-
-// WorkSpace text font-side handling 
+// WorkSpace specific variables
 $wsv-text-font-size: $font-size-text-small;
+$wsv-step-text-font-size: 15px;
+$wsv-step-circle-text-font-size: $font-size-text-md-lg;
+$wsv-step-item-border-sm-screen: 22px;
+$wsv-step-item-border: 24px;
+
+// General useage
+$step-item-border: $wsv-step-item-border;
+$step-item-border-sm-screen: $wsv-step-item-border-sm-screen;

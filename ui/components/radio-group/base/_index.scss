@@ -11,7 +11,6 @@
  */
 .nds-radio {
   display: inline-block;
-
   /**
    * Creates a custom styled radio button
    *
@@ -115,6 +114,10 @@
     }
 
   }
+}
+
+.nds-has-error .nds-radio{
+  border: solid 1px $color-border-error;
 }
 
 .nds-has-error .nds-radio [type='radio'] {
