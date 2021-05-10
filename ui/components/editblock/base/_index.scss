@@ -373,6 +373,9 @@
           font-weight: 600;
         }
       }
+      .nds-p-left_x-small {
+        line-height: inherit; // parent div’s height
+      }
     }
 
     .nds-editblock_delete {

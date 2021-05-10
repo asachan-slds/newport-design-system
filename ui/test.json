@@ -1,0 +1,25 @@
+{
+	"Title": "Test",
+	"Navitems": [
+		{
+			"Title": "Home",
+			"ApiName": "Home"
+		},
+		{
+			"Title": "Recovery",
+			"ApiName": "Recovery"
+		},
+		{
+			"Title": "Payments",
+			"ApiName": "Payments"
+		},
+		{
+			"Title": "Self Service",
+			"ApiName": "SelfService"
+		},
+		{
+			"Title": "Help Centre",
+			"ApiName": "HelpCentre"
+		}
+	]
+}
