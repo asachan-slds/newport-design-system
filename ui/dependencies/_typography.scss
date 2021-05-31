@@ -23,6 +23,21 @@
   }
 }
 
+@mixin font-face-custom($font-file-name, $font-file-ext, $font-face-setting: Regular, $font-style-setting: null, $font-weight-setting: null, $family-name: 'NHassGrotesk') {
+  $font-path: '#{$static-font-path}/#{$font-file-name}.#{$font-file-ext}';
+
+  @font-face {
+    // font-family: 'Lato';
+    // src: url('#{$font-path}.woff2') format('woff2');
+
+    font-family: 'NHassGrotesk';
+    src: url('#{$font-path}') format($font-file-ext);
+
+    font-style: $font-style-setting;
+    font-weight: $font-weight-setting;
+  }
+}
+
 
 @mixin text-heading--label-normal {
   font-size: $font-size-small;
