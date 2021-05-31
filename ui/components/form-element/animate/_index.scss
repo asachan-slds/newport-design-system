@@ -17,34 +17,34 @@
 }
 
 .nds-form-element__label {
-  color: $color-input-font-kashmiri-blue;
+  color: $newport-black-primary;
 }
 
 .nds-input {
-  font-size: .875rem;
-  letter-spacing: 1px;
-  font-weight: 400;
+  font-size: $wsv-text-font-size;
+  letter-spacing: $letter-spacing-normal;
+  font-weight: $font-weight-regular;
 }
 
 input[placeholder]::placeholder {
   /* stylelint-disable declaration-no-important */
-  font-size: $form-placeholder-font-size;
+  font-size: $wsv-text-font-size;
   color: transparent !important;
   font-weight: $form-placeholder-weight;
   /* stylelint-enable declaration-no-important */
 }
 
 .nds-form-element__control.nds-form-element__control-animated-label {
-
+  margin-top: .300rem;
   .nds-form-element__label {
-    top: .25rem;
+    top: -1.75rem;
     #{$left}: 0;
     position: absolute;
     width: 100%;
     #{$right}: 0;
     pointer-events: none;
     overflow: visible;
-
+    
     .nds-button_icon {
       border: 0;
       top: 0.05rem;
@@ -59,10 +59,11 @@ input[placeholder]::placeholder {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    font-weight: $form-label-pre-animate-font-weight;
-    font-size: $form-label-pre-animate-font-size;
-    letter-spacing: 1px;
-    color: $color-input-font-kashmiri-blue;
+    font-family: $font-family;
+    font-size: $form-label-font-size;
+    font-weight: $form-label-font-weight;
+    // letter-spacing: 1px;
+    color: $color-black-primary;
     padding: 0 .5rem 0 0;
   }
 
@@ -89,12 +90,12 @@ input[placeholder]::placeholder {
 
     ~.nds-form-element__label,
     +.nds-form-element__label {
-      transform: translate3d(0, -1.2rem, 0);
+      transform: translate3d(0, 0, 0);
       transition-duration: 300ms;
       z-index: 1;
-      top: .4rem;
+      top: -1.75rem;
       #{$left}: 0;
-
+      
       .nds-button_icon {
         top: -0.05rem;
       }
@@ -104,19 +105,21 @@ input[placeholder]::placeholder {
     ~label.nds-form-element__label,
     +.nds-form-element__label label,
     +label.nds-form-element__label {
+      // font-size: $form-label-font-size;
+      // font-weight: $form-label-font-weight;
+      padding: 0 .5rem 0 0;
       font-size: $form-label-font-size;
       font-weight: $form-label-font-weight;
-      padding: 0 .5rem 0 0;
     }
   }
 
-  input:focus~.nds-form-element__label,
-  input:focus~.nds-form-element__label .nds-required,
-  select:focus~.nds-form-element__label,
-  select:focus~.nds-form-element__label .nds-required,
-  textarea:focus~.nds-form-element__label {
-    color: $color-border-input-active;
-  }
+  // input:focus~.nds-form-element__label,
+  // input:focus~.nds-form-element__label .nds-required,
+  // select:focus~.nds-form-element__label,
+  // select:focus~.nds-form-element__label .nds-required,
+  // textarea:focus~.nds-form-element__label {
+  // color: $color-border-input-active;
+  // }
 }
 
 
@@ -167,7 +170,7 @@ input[placeholder]::placeholder {
   color: $color-border-error;
   font-size: .75rem;
   font-weight: 400;
-  text-transform: capitalize;
+  text-transform: none;
   margin-top: .625rem;
 
   &.nds-form-element__help_text-transform__none {
@@ -232,7 +235,7 @@ textarea:focus::placeholder {
 }
 
 .nds-combobox_container .nds-combobox__form-element.nds-form-element__control.nds-form-element__control-animated-label input[readonly] {
-  padding-left: 0;
+  padding-left: $spacing-small;
 
   &:focus {
     box-shadow: none;

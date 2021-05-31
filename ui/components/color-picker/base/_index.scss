@@ -89,7 +89,7 @@
 
   .nds-tabs_default__item {
     text-transform: uppercase;
-    letter-spacing: 0.05rem;
+    letter-spacing: $letter-spacing-normal;
   }
 
   .nds-tabs_default__content {

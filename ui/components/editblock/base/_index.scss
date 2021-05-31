@@ -83,7 +83,7 @@
     box-shadow: unset !important;
     /* stylelint-enable declaration-no-important */
     font-size: 14px;
-    letter-spacing: 0.5px;
+    letter-spacing: $letter-spacing-x-sm;
     color: $color-midnight-blue;
     max-width: 50%;
     overflow: hidden;
@@ -372,6 +372,9 @@
         &:first-child {
           font-weight: 600;
         }
+      }
+      .nds-p-left_x-small {
+        line-height: inherit; // parent div’s height
       }
     }
 

@@ -2,10 +2,13 @@ $font-size-1: 0.625rem;
 $font-size-2: 0.75rem;
 $font-size-3: 0.8125rem;
 $font-size-4: 0.875rem;
-$font-size-5: 1rem;
+$font-size-5: 1rem; // 16px;
+$font-size-5-1: 1.065rem; // 17px
 $font-size-6: 1.125rem;
 $font-size-7: 1.25rem;
 $font-size-8: 1.5rem;
 $font-size-9: 2rem;
 $font-size-10: 2.5rem;
-$sans-serif: 'Lato', sans-serif;
+//wsv fonts
+$sans-serif: "Neue Haas Grotesk Text Pro",'Lato', sans-serif;
+$arial-helvetica: "Neue Haas Grotesk", Arial, Helvetica, sans-serif

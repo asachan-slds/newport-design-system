@@ -196,4 +196,25 @@ storiesOf(`${base}`, module)
     </div>
   </div>
 </div>`);
+  }).add('Input Omniscript', () => {
+    return withExample(`
+    <div vlocity_ins-input_input_nds="" class="nds-form-element nds-form-container">
+    <div vlocity_ins-input_input_nds="" class="nds-form-element__control nds-form-element__control-animated-label"><input
+        vlocity_ins-input_input_nds="" id="input13-176" maxlength="255" minlength="0" type="text" aria-controls="id-176"
+        class="vlocity-input nds-input_mask nds-input nds-not-empty nds-is-dirty">
+      <div vlocity_ins-input_input_nds="" class="nds-form-element__label nds-align-middle nds-animated-label__ease-out">
+        <label vlocity_ins-input_input_nds="" aria-label="First name">First name</label></div>
+    </div>
+  </div>
+    `);
+  }).add('Input No Label Omniscript', () => {
+    return withExample(`
+    <div vlocity_ins-input_input_nds="" class="nds-form-element nds-form-container">
+    <div vlocity_ins-input_input_nds="" class="nds-form-element__control nds-form-element__control-animated-label"><input
+        vlocity_ins-input_input_nds="" id="input13-176" maxlength="255" minlength="0" type="text" aria-controls="id-176"
+        class="vlocity-input nds-input_mask nds-input nds-not-empty nds-is-dirty">
+      <div vlocity_ins-input_input_nds="" class="nds-form-element__label nds-align-middle nds-animated-label__ease-out">
+    </div>
+  </div>
+    `);
   });

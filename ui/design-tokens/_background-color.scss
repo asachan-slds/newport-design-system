@@ -6,9 +6,9 @@ $color-background-alt: $palette-gray-1 !default;
 $color-background-backdrop-tint: $palette-gray-2 !default;
 $color-background-backdrop: $white-transparent-75 !default;
 $color-background-blue-corn: $newport-background-primary-blue-corn !default;
-$color-background-brand-primary-active: $midnight-blue !default;
-$color-background-brand-primary-focus: $endeavour !default;
-$color-background-brand-primary-hover: $endeavour !default;
+$color-background-brand-primary-active: $gamboge-yellow !default;
+$color-background-brand-primary-focus: $diarylide-yellow !default;
+$color-background-brand-primary-hover: $gamboge-yellow !default;
 $color-background-brand-primary: $newport-background-primary-blue !default;
 $color-background-browser: $palette-gray-9 !default;
 $color-background-button-success-active: $salem !default;
@@ -35,7 +35,8 @@ $color-background-input-active: $white !default;
 $color-background-input-checkbox-disabled: $palette-gray-5 !default;
 $color-background-input-checkbox-selected: $azure !default;
 $color-background-input-checkbox: $white !default;
-$color-background-input-disabled: $palette-gray-4 !default;
+$color-background-input-disabled: $palette-cool-gray-13 !default;
+$color-line-break: $palette-cool-gray-13 !default;
 $color-background-input-error: $pippin !default;
 $color-background-input-search: $black-transparent-16 !default;
 $color-background-input: $white !default;
@@ -48,6 +49,7 @@ $color-background-notification-badge-active: $midnight-blue !default;
 $color-background-notification-badge-focus: $endeavour !default;
 $color-background-notification-badge-hover: $endeavour !default;
 $color-background-notification-badge: $flush-mahogany !default;
+$color-background-badge: $matter-horn !default;
 $color-background-notification-new: $palette-gray-2 !default;
 $color-background-notification: $white !default;
 $color-background-offline: $palette-gray-11 !default;
@@ -89,9 +91,27 @@ $color-background-utility-bar-hover: $palette-gray-4 !default;
 $color-background-warning: $koromiko !default;
 $color-background-wildsand: $newport-background-wildsand !default;
 $color-background: $palette-gray-2 !default;
+// nds-radio, nds-checkbox
+$color-background-selected: $palette-light-gray-2 !default;
+$color-background-select: $palette-light-gray-3 !default;
+$color-background-hover: $palette-light-gray-1 !default;
+
 $color-brand-dark: $science-blue !default;
 $color-brand-darker: $endeavour !default;
 $color-brand: $newport-color-brand-orange !default;
+$color-brand-green: $newport-color-hippie-green !default;
 $color-contrast-primary: $palette-gray-2 !default;
 $color-contrast-secondary: $palette-gray-1 !default;
 $page-color-background-primary: $palette-gray-1 !default;
+$color-border-button-brand-disabled: $palette-cool-gray-13 !default;
+// wsv background color for uploaded file pill
+$color-background-upload-file-pill: $palette-cool-gray-13 !default;
+//wsv background color for step items state
+$color-background-step-inactive: $palette-cool-gray-13 !default;
+$color-background-step-inprocess: $diarylide-yellow !default;
+$color-background-step-complete: $newport-color-hippie-green !default;
+$color-background-step-inprocess-hover: $sunglow-yellow !default;
+$color-background-step-complete-hover: $newport-color-dark-green !default;
+//wsv background color for step oval
+$color-background-step-block-complete: $newport-color-hippie-green !default;
+$color-background-step-block-inactive: $color-background-shade-dark !default;

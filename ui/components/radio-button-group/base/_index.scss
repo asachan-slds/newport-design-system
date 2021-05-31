@@ -13,7 +13,7 @@
 .nds-radio_button-group,
 .nds-radio--button-group {
   display: inline-flex;
-  border: $border-width-thin solid $color-border;
+  border: $border-width-thin solid $color-border-input-2;
   border-radius: $border-radius-medium;
   width: 100%;
 }
@@ -44,7 +44,7 @@
     padding-#{$right}: $spacing-medium;
     text-align: center;
     vertical-align: middle;
-    color: $color-input-icon-blue-hue;
+    color: $color-black-primary;
     font-size: 0.85rem;
     font-weight: 300;
 
@@ -57,7 +57,7 @@
   // Apply left borders to anything radio button after the first button
   + .nds-radio_button,
   + .nds-radio--button {
-    border-#{$left}: $border-width-thin solid $color-border;
+    border-#{$left}: $border-width-thin solid $color-border-input-2;
     margin: 0;
   }
 
@@ -101,7 +101,7 @@
     &:checked + .nds-radio_button__label,
     &:checked + .nds-radio--button__label {
       background-color: $button-color-background-primary;
-      color: $color-input-icon-blue-hue;
+      color: $color-black-primary;
 
       // Need something stronger when the input is checked
       &:hover,
@@ -112,7 +112,7 @@
 
     &:checked + .nds-radio_button__label .nds-radio-overlay {
       position: absolute;
-      border: 2px solid $color-border-input-active;
+      border: 2px solid $color-border-input-active-green;
       top: -0.125rem;
       #{$right}: -0.125rem;
       #{$left}: -0.125rem;
@@ -192,9 +192,10 @@
   margin-bottom: 0.25rem;
 
   > span {
-    font-size: 0.875rem;
-    letter-spacing: 1px;
+    font-size: $wsv-text-font-size;
+    letter-spacing: $letter-spacing-normal;
     font-weight: 400;
     padding-bottom: 0.3125rem;
+    line-height: 1.5;
   }
 }

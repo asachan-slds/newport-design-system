@@ -116,9 +116,11 @@
 * We may need to add or adjust these later based on further input.
 */
 // stylelint-disable-next-line selector-class-pattern
-.slds-rich-text-editor__output,
+
+// .slds-rich-text-editor__output,
 .nds-rich-text-editor__textarea,
-.nds-rich-text-editor__output {
+.nds-rich-text-editor__output,
+.nds-card__body .slds-rich-text-editor__output {
   line-height: $line-height-text;
   overflow-wrap: break-word;
   word-wrap: break-word;
@@ -130,6 +132,7 @@
 
   h1 {
     font-size: $font-size-heading-large;
+    font-weight: $font-weight-bold;
   }
 
   h2 {
@@ -139,6 +142,7 @@
 
   h3 {
     font-size: $font-size-heading-medium;
+    font-weight: $font-weight-bold;
   }
 
   h4 {
@@ -148,6 +152,7 @@
 
   h5 {
     font-size: $font-size-heading-small;
+    font-weight: $font-weight-bold;
   }
 
   h6 {
@@ -166,6 +171,12 @@
   dl,
   img {
     margin-bottom: $spacing-small;
+    font-family: $font-family;
+  }
+
+  div,
+  p {
+    font-family: $font-family;
   }
 
   blockquote {

@@ -1,6 +1,14 @@
+// Use for text only.
+$font-weight-light: 200 !default;
 // Use for large headings only.
 $font-weight-light: 300 !default;
 // Most all body copy.
 $font-weight-regular: 400 !default;
+// Medium bold
+$font-weight-md-bold: 600 !default;
 // Used sparingly for emphasized text within regular body copy.
 $font-weight-bold: 700 !default;
+// Used sparingly for extra emphasized text within regular body copy.
+$font-weight-x-bold: 900 !default;
+// Most all normal body text.
+$font-weight-normal: normal !default;
