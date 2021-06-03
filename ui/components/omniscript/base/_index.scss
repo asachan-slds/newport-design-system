@@ -13,7 +13,7 @@
  * @support dev-ready
  */
 
-@media (min-width: 30em) and (max-width: 48em) {
+ @media (min-width: 30em) and (max-width: 48em) {
 
   // stylelint-disable-next-line selector-class-pattern
   .via-nds .nds-omniscript_stepform {
@@ -21,6 +21,7 @@
     flex: 0 0 83.3333333%;
     max-width: 83.3333333%;
   }
+  
 }
 
 // for Edit Block
@@ -58,6 +59,19 @@
   position: absolute;
 }
 
+// Removes onclick focus for <article> component in OmniScript
+.omniscript-article {
+  &:focus {
+    outline: none;
+  }
+}
+@media screen and (min-width: 30em) {
+  .via-nds .nds-medium-size_8-of-12.nds-align_absolute-center{
+    width: 83.3333333%;
+    flex: 0 0 83.3333333%;
+    max-width: 83.3333333%;
+  }
+}
 @media (min-width: 48em) {
   .omniscript-btn-previous {
     position: absolute;
