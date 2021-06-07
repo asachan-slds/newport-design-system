@@ -438,4 +438,57 @@ storiesOf(`${base}`, module)
     </div>
   </div>
 </div>`);
+  }).add('Color Grays 2 (examples)', () => {
+    return withExample(`<div>
+  <h2 class="nds-text-heading_large nds-m-bottom_medium">Background Colors</h2>
+  <div class="nds-m-bottom_large">
+    <div class="nds-color__background_black nds-p-around_medium nds-color__text_white" >
+      <p>
+        .nds-color__background_black-
+
+        
+
+      </p>
+    </div>
+  </div>
+  <h2 class="nds-text-heading_large nds-m-bottom_medium">Text Colors</h2>
+  <div class="nds-m-bottom_large">
+    <div class="nds-grid nds-grid_vertical-align-center">
+      <div class="nds-color__background_gray-1" style="height: 3rem; width: 3rem; display: inline-block;"></div>
+      <p class="nds-color__text_black nds-p-left_small">
+        .nds-color__text_black
+
+      </p>
+    </div>
+  </div>
+  <h2 class="nds-text-heading_large nds-m-bottom_medium">Border Colors</h2>
+  <div class="nds-m-bottom_large">
+    <div class="nds-color__border_black nds-p-around_medium nds-m-bottom_small" style="border-width: 1px; border-style: solid;">
+      .nds-color__border_black
+    </div>
+  </div>
+  <h2 class="nds-text-heading_large nds-m-bottom_medium">SVG Fill Colors</h2>
+  <div class="nds-m-bottom_large">
+    <div class="nds-p-around_small">
+      <svg class="nds-color__fill_black nds-icon_small" aria-hidden="true">
+        <use xlink:href="/assets/icons/action-sprite/svg/symbols.svg#check"></use>
+      </svg>
+      <span class="nds-p-left_small">
+        .nds-color__fill_black
+
+      </span>
+    </div>
+    <div class="nds-m-bottom_large">
+    <div class="nds-color__background_black nds-p-around_medium nds-color__text_white nds-icon_container nds-icon_container_circle" >
+      <svg class="nds-color__fill_white nds-icon_small" aria-hidden="true">
+        <use xlink:href="/assets/icons/action-sprite/svg/symbols.svg#question_post_action"></use>
+      </svg>
+    </div>
+    <span class="nds-p-left_small">
+        .nds-color__fill_black
+
+      </span>
+  </div>
+  </div>
+</div>`);
   });

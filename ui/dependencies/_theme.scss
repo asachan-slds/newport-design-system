@@ -161,7 +161,8 @@
 
   @else {
     background-color: $color-background-alt;
-    color: $color-text-default;
+    color: $color-black-primary;
+
   }
 
   @include border($borders);

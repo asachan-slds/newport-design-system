@@ -1,12 +1,12 @@
 $color-border-primary: $palette-gray-5 !default;
 $color-border-brand-primary: $azure !default;
-$color-border-brand-primary-hover: $science-blue !default;
-$color-border-brand-primary-focus: $science-blue !default;
-$color-border-brand-primary-active: $midnight-blue !default;
+$color-border-brand-primary-hover: $gamboge-yellow !default;
+$color-border-brand-primary-focus: $gamboge-yellow !default;
+$color-border-brand-primary-active: $gamboge-yellow !default;
 // Default border color for UI elements.
 $color-border: $palette-gray-5 !default;
 // Our product brand blue.
-$color-border-brand: $azure !default;
+// $color-border-brand: $azure !default;
 // Our product brand blue, darkened to meet accessibility color contrast ratios with white text.
 $color-border-brand-dark: $science-blue !default;
 // Border color for UI elements related to the concept of an external user or customer.
@@ -70,17 +70,19 @@ $color-border-icon-inverse-hint-hover: $white-transparent-75 !default;
 // Border color for brandable primary button
 $color-border-button-brand: $science-blue !default;
 // Border color for brandable primary button - disabled state
-$color-border-button-brand-disabled: $transparent !default;
+$color-border-button-brand-disabled: $palette-cool-gray-13 !default;
 // Border color for default secondary button
 $color-border-button-default: $palette-gray-5 !default;
 // Border color for disabled inverse button.
 $color-border-button-inverse-disabled: $white-transparent-15 !default;
 // Border color on form elements.
 $color-border-input: $newport-border-gray !default;
+$color-border-input-2: $newport-border-gray-2 !default;
 // Border color on active form elements.
 $color-border-input-active: $newport-color-brand-orange !default;
+$color-border-input-active-green: $newport-color-hippie-green !default;
 // Border color on disabled form elements.
-$color-border-input-disabled: $palette-gray-6 !default;
+$color-border-input-disabled: $newport-border-gray !default;
 // The borders to create the checkmark
 $color-border-input-checkbox-selected-checkmark: $white !default;
 // These borders create the faux checkmark when the checkbox toggle is in the checked state.
@@ -100,3 +102,14 @@ $color-stroke-header-button: $palette-gray-7 !default;
 $color-border-botticelli: $newport-border-botticelli !default;
 $color-comment-msz: $newport-color-comment-msz !default;
 $color-dropdown-border: $newport-dropdown-border !default;
+//wsv color border for stepOvalActive
+$color-border-step-block-active: $diarylide-yellow !default;
+$color-border-step-block-inactive: $black-primary !default;
+//wsv color border for upload file
+$color-border-upload-container: $newport-color-Harmonies !default;
+$color-border-upload-btn: $newport-color-Harmonies !default;
+// wsv border color for uploaded file pill
+$color-border-upload-file-pill: $palette-cool-gray-13 !default;
+//wsv color border for stepItems
+$color-border-step-circle: $black-primary !default;
+$color-border-brand: $diarylide-yellow !default;

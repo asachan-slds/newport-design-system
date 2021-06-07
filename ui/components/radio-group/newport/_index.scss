@@ -117,7 +117,7 @@
         background-color: transparent;
         color: $color-text-button-brand;
         width: 100%;
-        border: 2px solid $color-brand;
+        border: $border-width-thin solid $color-brand-green;
 
         // Need something stronger when the input is checked
         &:hover,
@@ -179,7 +179,7 @@
     text-align: center;
     padding: 0 10px;
     text-transform: capitalize;
-    letter-spacing: 1px;
+    letter-spacing: $letter-spacing-normal;
     font-weight: 400;
     color: $color-background-brand-primary;
     font-size: 0.875rem;
@@ -272,7 +272,7 @@ fieldset.nds-form-element+.nds-has-error div div.nds-has-error small:first-child
 }
 
 .nds-radio_vertical .nds-radio .nds-form-element__label {
-  color: $color-blue-text-secondary;
+  color: $color-black-primary;
 }
 
 .nds-form-element__control.nds-vertical_radio {
@@ -282,7 +282,26 @@ fieldset.nds-form-element+.nds-has-error div div.nds-has-error small:first-child
 
 .nds-form-element__control.nds-vertical_radio .nds-radio,
 .nds-form-element__control.nds-horizontal_radio .nds-radio {
-  margin: 0 1rem 0.5rem 0;
+  margin: 0 1rem .25rem 0;
+  background-color: $color-background-select;
+  border-radius: 12px;
+  padding: 10px 15px;
+  /* following props added dynamically so ignoring them by adding same with default values 
+    and marking them with !important to be effective. 
+  .nds-form-element__control[vlocity_cmt-radioGroup_radioGroup_nds] span.nds-radio[vlocity_cmt-radioGroup_radioGroup_nds] {
+    padding-left: 1.5rem;
+    text-indent: -1.5rem;
+  */
+  padding-left: 15px !important;
+  text-indent: 0 !important;
+
+  &:hover,
+  &:focus {
+    background-color: $color-background-hover;
+  }
+  &:checked {
+    background-color: $color-background-selected;
+  }
 }
 
 .nds-horizontal_radio label div.nds-radio__label {
@@ -299,7 +318,7 @@ fieldset.nds-form-element+.nds-has-error div div.nds-has-error small:first-child
 }
 
 .nds-radio_custom-group.nds-static-wrapper input[type="radio"]:checked+.nds-img_select-container {
-  border: 2px solid $color-border-input-active;
+  border: 2px solid $color-border-input-active-green;
 }
 
 .nds-radio_custom-group.nds-img-wrapper_cont label.nds-img_no-width-height {
@@ -307,7 +326,7 @@ fieldset.nds-form-element+.nds-has-error div div.nds-has-error small:first-child
 }
 
 .nds-radio_custom-group.nds-img-wrapper_cont input[type="radio"]:checked+label.nds-img_no-width-height {
-  border: 2px solid $color-border-input-active;
+  border: 2px solid $color-border-input-active-green;
 }
 
 .nds-img_select-container {

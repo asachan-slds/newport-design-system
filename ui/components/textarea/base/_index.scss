@@ -12,15 +12,14 @@
  */
 .nds-textarea {
   @include form-states;
-  resize: vertical;
-  border: 0;
-  border-bottom: 1px solid $color-border-input;
-  padding: $spacing-x-small 0;
-  border-radius: 0;
+  resize: none;
+  padding: $spacing-small;
+  border: 1px solid $color-border-input;
+  min-height: 100px;
 
   &:active,
   &:focus {
-    box-shadow: none;
+    box-shadow: $shadow-selected-focus;
   }
 }
 
@@ -29,7 +28,9 @@
 }
 
 .nds-has-error .nds-textarea {
-
+  background: transparent;
+  box-shadow: none;
+  border-color: $color-border-error;
   &,
   &:active,
   &:focus {

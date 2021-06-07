@@ -14,19 +14,21 @@
   @include form-states;
   box-shadow: none;
   display: inline-block;
-  padding: 0;
-  line-height: $height-input;
-  min-height: calc(#{$height-input} + (#{$border-width-thin} * 2)); // For IE
+  padding: 0.625rem 0.825rem;
+  margin-bottom: 0.5rem;
+  line-height: $text-height-input;
+  min-height: calc(#{$text-height-input} + (#{$border-width-thin} * 2)); // For IE
   /**
    * @selector [readonly]
    * @restrict .nds-input
    */
   &[readonly] {
     border-color: transparent;
-    background-color: transparent;
+    background-color: $palette-cool-gray-13;
+    color: $color-black-primary;
     font-size: $input-static-font-size;
     font-weight: $input-readonly-font-weight; // This is a plain readonly input. It should not have the text treatment that static has.
-    border-bottom: 1px solid $color-border-input;
+    border: 1px solid $newport-border-gray;
   }
 
   &[type="search"]:-ms-clear {
@@ -56,7 +58,7 @@
     &:focus,
     &:active {
       outline: 0;
-      box-shadow: none;
+      box-shadow: $shadow-selected-focus;
     }
   }
 
@@ -94,7 +96,7 @@
   }
   .nds-form-element__label {
     color: $color-text-input-disabled;
-    opacity: 0.5;
+    // opacity: 0.5;
   }
 }
 
@@ -128,9 +130,9 @@
     @include square($square-icon-medium-content);
     position: absolute;
     top: 50%;
-    margin-top: (($square-icon-medium-content / 2) * -1);
+    margin-top: ((1.75rem / 2) * -1);
     line-height: 1;
-
+    
     /* @Todo - we need to be sure this is deprecated since the color sems to be the correct gray I see in specs */
     @include deprecate('4.0.0', 'Use .nds-icon-text-default on the SVG icon instead') {
       fill: $color-text-input-icon;
@@ -163,7 +165,8 @@
   &--right {
 
     .nds-input__icon {
-      #{$right}: 0;
+      // #{$right}: 0.5rem;
+      #{$right}: 1rem;
     }
 
     .nds-input,
@@ -329,11 +332,13 @@
 input[type="text"].nds-input_mask.nds-input,
 input[type="tel"].nds-input_mask.nds-input {
   color: transparent;
+  font-size: inherit;
 }
 
 input[type="text"].nds-input_mask.nds-input:focus,
 input[type="tel"].nds-input_mask.nds-input:focus {
   color: inherit;
+  font-size: inherit;
   /* stylelint-disable declaration-property-value-blacklist */
   transition: all 0.3s ease-out;
   /* stylelint-enable declaration-property-value-blacklist */
@@ -342,4 +347,5 @@ input[type="tel"].nds-input_mask.nds-input:focus {
 input[type="text"].nds-input_mask.nds-input.nds-not-empty,
 input[type="tel"].nds-input_mask.nds-input.nds-not-empty {
   color: inherit;
+  font-size: inherit;
 }

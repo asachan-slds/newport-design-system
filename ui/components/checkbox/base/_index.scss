@@ -27,7 +27,7 @@
     display: inline-block;
     position: relative;
     vertical-align: middle;
-    border: $border-width-thin solid $color-border-input;
+    border: $border-width-thin solid $color-border-input-2;
     border-radius: $border-radius-small;
     background: $color-background-input;
     transition: border $duration-quickly linear, background-color $duration-quickly linear;
@@ -36,7 +36,8 @@
   .nds-form-element__label {
     display: inline;
     vertical-align: middle;
-    font-size: $font-size-medium-a;
+    font-size: $wsv-text-font-size;
+    font-family: $font-family;
   }
 
   [type="checkbox"] {
@@ -45,7 +46,7 @@
     clip: rect(0 0 0 0);
     margin: -1px;
     overflow: hidden;
-    padding: 0;
+    padding: $spacing-x-small 0;
     position: absolute;
 
     &:checked+.nds-checkbox_faux,
@@ -54,8 +55,7 @@
     &:checked~.nds-checkbox--faux,
     &:checked+.nds-checkbox__label .nds-checkbox_faux,
     &:checked+.nds-checkbox__label .nds-checkbox--faux {
-      background: $color-brand;
-      border: 0;
+      background: $color-background-input;
       outline: unset;
 
       &:after {
@@ -67,8 +67,8 @@
         top: 50%;
         left: 50%;
         transform: translate3d(-50%, -50%, 0) rotate(-45deg);
-        border-bottom: $border-width-thick solid $color-border-toggle-checked;
-        border-left: $border-width-thick solid $color-border-toggle-checked;
+        border-bottom: $border-width-thick solid $color-border-input-active-green;
+        border-left: $border-width-thick solid $color-border-input-active-green;
       }
     }
 
@@ -81,8 +81,9 @@
       +.nds-checkbox__label .nds-checkbox_faux,
       +.nds-checkbox__label .nds-checkbox--faux {
         content: '';
-        border-color: $color-border-input-active;
-        box-shadow: $shadow-button-focus;
+        border: $border-width-thin solid $color-border-input-2;
+        outline: none;
+        box-shadow: $shadow-selected-focus;
       }
 
       &:checked>.nds-checkbox_faux,
@@ -92,8 +93,9 @@
       &:checked+.nds-checkbox__label .nds-checkbox_faux,
       &:checked+.nds-checkbox__label .nds-checkbox--faux {
         content: '';
-        border-color: $color-border-input-active;
-        background-color: $color-brand;
+        border-color: $color-border-input-2;
+        background-color: $color-background-input;
+        border: $border-width-thin solid $color-border-input-2;
       }
     }
 
@@ -110,8 +112,9 @@
       left: 50%;
       width: $square-icon-x-small-content;
       height: 2px;
-      background: $color-brand;
+      background: $color-background-input;
       border: 0;
+      border: $border-width-thin solid $color-border-input-2;
       transform: translate3d(-50%, -50%, 0);
     }
 
@@ -136,13 +139,13 @@
   &__label {
 
     .nds-form-element__label.nds-form-element__control-help {
-      font-size: 0.875rem;
-      font-weight: 400;
+      font-size: $wsv-text-font-size;
+      font-weight: $font-weight-regular;
     }
 
     .nds-tooltip_container .nds-nonfocused_control svg {
       margin-top: -0.1875rem;
-      fill: $color-input-icon-blue-hue;
+      fill: $color-black-primary;
       cursor: pointer;
     }
 
@@ -161,20 +164,34 @@
   +.nds-checkbox__label .nds-checkbox_faux,
   +.nds-checkbox__label .nds-checkbox--faux {
     border-color: $color-border-error;
-    border-width: $border-width-thick;
+    border-width: $border-width-thin;
   }
 
+  &:focus,
+  &:active {
+    +.nds-checkbox_faux,
+    +.nds-checkbox--faux,
+    ~.nds-checkbox_faux,
+    ~.nds-checkbox--faux,
+    +.nds-checkbox__label .nds-checkbox_faux,
+    +.nds-checkbox__label .nds-checkbox--faux {
+      content: '';
+      border: $border-width-thin solid $color-border-input-2;
+      box-shadow: $shadow-selected-error;
+    }
+  }
+  
   &:checked+.nds-checkbox_faux,
   &:checked+.nds-checkbox--faux,
   &:checked~.nds-checkbox_faux,
   &:checked~.nds-checkbox--faux,
   &:checked+.nds-checkbox__label .nds-checkbox_faux,
   &:checked+.nds-checkbox__label .nds-checkbox--faux {
-    border-color: $color-border-error;
-    background-color: $color-border-error;
+    border-color: $border-width-thin solid $color-border-input-2;
+    background-color: $color-background-input;
 
     &:after {
-      border-color: $color-background-input;
+      border-color: $color-border-error;
     }
   }
 }

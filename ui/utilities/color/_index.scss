@@ -539,3 +539,30 @@
 .nds-color__fill_gray-12 {
   fill: $color-gray-12 !important;
 }
+
+/**
+ * Custom Colors
+*/
+.nds-color__background_black {
+  background-color: $color-black-primary;
+}
+
+.nds-color__fill_black {
+  fill: $color-black-primary;
+}
+
+.nds-color__border_black {
+  border-color: $color-black-primary !important;
+}
+
+.nds-color__text_black {
+  color: $color-black-primary !important;
+}
+
+.nds-color__text_white {
+  color: $white;
+}
+
+.nds-color__fill_white {
+  fill: $white;
+}

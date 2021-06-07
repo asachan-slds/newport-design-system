@@ -48,3 +48,8 @@
 .nds-border--top {
   border-top: $border-width-thin solid $color-border;
 }
+
+.nds-border_top_wsvColor {
+  border-color: $color-border-brand;
+  border-top-width: 4px;
+}

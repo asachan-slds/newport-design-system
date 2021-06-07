@@ -3,8 +3,8 @@
 
 .nds-select {
   font-size: 0.875rem;
-  letter-spacing: 1px;
-  font-weight: 400;
+  letter-spacing: $letter-spacing-normal;
+  font-weight: $font-weight-regular;
   color: inherit;
 
   &_container {
@@ -13,7 +13,7 @@
 }
 
 .nds-form-element__control.nds-input-has-icon svg.nds-icon {
-  fill: $color-input-icon-blue-hue;
+  fill: $color-black-primary;
 }
 
 .nds-select-wrapper .nds-control-action__container {

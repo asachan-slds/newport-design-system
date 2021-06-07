@@ -4,10 +4,55 @@
 // scss-lint:disable SpaceAfterComma
 
 @if ($nds-load-webfonts) {
-  @include font-face(Light,                 $font-weight-setting: $font-weight-light);
-  @include font-face(LightItalic,   italic, $font-weight-light);
-  @include font-face(Regular,               $font-weight-setting: $font-weight-regular);
-  @include font-face(Italic,        italic, $font-weight-regular);
-  @include font-face(Bold,                  $font-weight-setting: $font-weight-bold);
-  @include font-face(BoldItalic,    italic, $font-weight-bold);
+  // @include font-face(Light,                 $font-weight-setting: $font-weight-light);
+  // @include font-face(LightItalic,   italic, $font-weight-light);
+  // @include font-face(Regular,               $font-weight-setting: $font-weight-regular);
+  // @include font-face(Italic,        italic, $font-weight-regular);
+  // @include font-face(Bold,                  $font-weight-setting: $font-weight-bold);
+  // @include font-face(BoldItalic,    italic, $font-weight-bold);
+  // $font-file-name, $font-file-ext, $font-face-setting: Regular, $font-style-setting: null, $font-weight-setting: null, $family) 
+
+  /* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "Neue Haas Grotesk Text Pro";
+  font-style: normal;
+  font-weight: bold;
+  src: url("#{$static-font-path}/NHaasGroteskTXPro-75Bd.woff") format("woff");
+}
+@font-face {
+  font-family: "Neue Haas Grotesk Text Pro";
+  font-style: normal;
+  font-weight: 500;
+  src: url("#{$static-font-path}/NHaasGroteskTXPro-65Md.woff") format("woff");
+}
+@font-face {
+  font-family: "Neue Haas Grotesk Text Pro";
+  font-style: normal;
+  font-weight: normal;
+  src: url("#{$static-font-path}/NHaasGroteskTXPro-55Rg.woff") format("woff");
+}
+@font-face {
+    font-family: 'Neue Haas Grotesk';
+    src: url('#{$static-font-path}/NeueHaasDisplay-Roman.woff') format('woff');
+	font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Neue Haas Grotesk';
+    src: url('#{$static-font-path}/NeueHaasDisplay-Bold.woff') format('woff');
+	font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Neue Haas Grotesk';
+    src: url('#{$static-font-path}//NeueHaasDisplay-ThinItalic.woff') format('woff');
+	font-weight: 100;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Neue Haas Grotesk';
+    src: url('#{$static-font-path}/NeueHaasDisplay-RomanItalic.woff') format('woff');
+	font-weight: normal;
+    font-style: italic;
+}
 }

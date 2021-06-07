@@ -39,14 +39,15 @@
 .nds-button {
   position: relative;
   display: inline-block;
-  padding: 0;
+  // padding: 0.75rem !important;
+  font-weight: 700 !important;
   background: transparent;
   background-clip: border-box;
   border: $border-width-thin solid transparent;
   border-radius: $button-border-radius;
-  line-height: $line-height-button;
+  line-height: $line-height-button-x-small;
   text-decoration: none;
-  color: $color-text-link;
+  color: $color-black-primary;
   // stylelint-disable property-no-vendor-prefix
   -webkit-appearance: none;
   // stylelint-enable property-no-vendor-prefix
@@ -146,8 +147,11 @@ a.nds-button--inverse:focus {
   @include button-base;
 
   &[disabled] {
+    color: $color-text-button-default-disabled;
+    cursor: not-allowed;
+    box-shadow: none;
     background-color: $color-background-button-default-disabled;
-    cursor: default;
+    border-color: $color-background-button-default-disabled;
   }
 }
 
@@ -168,6 +172,7 @@ a.nds-button--inverse:focus {
     background: $color-background-button-brand-disabled;
     border-color: $color-border-button-brand-disabled;
     color: $color-text-button-brand-disabled;
+    cursor: not-allowed;
   }
 }
 

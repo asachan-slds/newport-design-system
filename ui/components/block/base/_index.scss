@@ -34,7 +34,7 @@
   }
 
   .nds-control-action__container[vlc-bubble-canceller] {
-    font-size: 0.8rem;
+    font-size: $font-size-text-small;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
@@ -59,7 +59,7 @@
 
   // block indentation
   label[vlc-slds-toggle='toggle']~div[vlc-slds-toggle-elem='visible'] {
-    font-size: 1rem;
+    font-size: $wsv-text-font-size;
     padding-top: 1.5rem;
     font-weight: 300;
     padding-#{$left}: 1.5625rem;
@@ -167,7 +167,7 @@ label[vlc-slds-toggle],
     padding-#{$left}: 10px; // this will add up 30px + 10
     color: $color-background-brand-primary;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: $wsv-text-font-size;
   }
 }
 

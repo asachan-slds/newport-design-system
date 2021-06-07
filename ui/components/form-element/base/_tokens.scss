@@ -1,6 +1,8 @@
-$form-label-font-size: 0.75rem !default;
-$form-label-font-weight: 300 !default;
-$form-label-pre-animate-font-size: .875rem !default;
-$form-label-pre-animate-font-weight: 400 !default;
-$form-placeholder-weight: 200 !default;
+$form-label-font-size: $wsv-text-font-size !default;
+$form-label-font-weight: $font-weight-regular !default;
+$form-label-font-weight-normal: $font-weight-normal !default;
+$form-label-pre-animate-font-size: $font-size-text-sm-md !default;
+$form-label-pre-animate-font-weight: $font-weight-regular !default;
+$form-placeholder-weight: $font-weight-light !default;
 $form-placeholder-font-size: $font-size-4 !default;
+

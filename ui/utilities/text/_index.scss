@@ -34,7 +34,8 @@
 .nds-text-heading--large {
   font-weight: $font-weight-light;
   font-size: $font-size-xx-large;
-  line-height: $line-height-heading;
+  //wsv change to change to 1.5 instead of 1.25
+  line-height: $line-height-text;
 }
 
 /**
@@ -58,7 +59,7 @@
  */
 .nds-text-heading_small,
 .nds-text-heading--small {
-  font-size: $font-size-large;
+  font-size: $font-size-text-medium;
   line-height: $line-height-heading;
 }
 
