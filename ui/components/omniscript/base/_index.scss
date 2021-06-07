@@ -21,7 +21,7 @@
     flex: 0 0 83.3333333%;
     max-width: 83.3333333%;
   }
-  
+
 }
 
 // for Edit Block
@@ -64,24 +64,6 @@
   &:focus {
     outline: none;
   }
-}
-@media screen and (min-width: 30em) {
-  .via-nds .nds-medium-size_8-of-12.nds-align_absolute-center{
-    width: 83.3333333%;
-    flex: 0 0 83.3333333%;
-    max-width: 83.3333333%;
-  }
-}
-@media (min-width: 48em) {
-  .omniscript-btn-previous {
-    position: absolute;
-    left: 1.5rem;
-    bottom: 0rem;
-  }
-
-  .nds-button-group-row {
-    position: relative;
- }
 }
 
 @import 'blame';
